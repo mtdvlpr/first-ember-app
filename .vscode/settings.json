@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true
+  },
+  "cSpell.words": [
+    "htmlbars",
+    "initializers",
+    "nofollow",
+    "noreferrer",
+    "qunit"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

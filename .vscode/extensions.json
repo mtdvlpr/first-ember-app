@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "chiragpat.vscode-glimmer",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "lifeart.vscode-ember-unstable",
+    "lifeart.vscode-glimmer-syntax",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

@@ -8,8 +8,18 @@
 /bower_components/
 /node_modules/
 
+# Yarn files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # misc
 /.env*
+!/.env*.example
 /.pnp*
 /.sass-cache
 /.eslintcache
