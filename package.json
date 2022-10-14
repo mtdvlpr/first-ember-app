@@ -22,6 +22,14 @@
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test"
   },
+  "engines": {
+    "node": "^16.15.0",
+    "yarn": "3.2.4"
+  },
+  "ember": {
+    "edition": "octane"
+  },
+  "packageManager": "yarn@3.2.4",
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
     "@ember/optional-features": "^2.0.0",
@@ -93,12 +101,5 @@
     "qunit-dom": "^2.0.0",
     "typescript": "^4.8.4",
     "webpack": "^5.74.0"
-  },
-  "engines": {
-    "node": "^16.15.0",
-    "yarn": "3.2.4"
-  },
-  "ember": {
-    "edition": "octane"
   }
 }
