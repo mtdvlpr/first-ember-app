@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   lint:
-    name: "Lint"
+    name: 'Lint'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -30,7 +30,7 @@ jobs:
         run: yarn lint
 
   test:
-    name: "Test"
+    name: 'Test'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -43,5 +43,9 @@ jobs:
           cache: yarn
       - name: Install Dependencies
         run: yarn install
+      - name: Set env variables
+        run: |
+          touch .env
+          echo MAPBOX_ACCESS_TOKEN=${{ secrets.MAPBOX_ACCESS_TOKEN }} >> .env
       - name: Run Tests
         run: yarn test
