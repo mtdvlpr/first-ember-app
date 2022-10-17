@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.0, @babel/core@npm:^7.16.10, @babel/core@npm:^7.16.7, @babel/core@npm:^7.18.6, @babel/core@npm:^7.3.4":
+"@babel/core@npm:^7.12.0, @babel/core@npm:^7.16.10, @babel/core@npm:^7.16.7, @babel/core@npm:^7.18.6, @babel/core@npm:^7.19.3, @babel/core@npm:^7.3.4":
   version: 7.19.3
   resolution: "@babel/core@npm:7.19.3"
   dependencies:
@@ -2498,9 +2498,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=10.0.0":
-  version: 18.8.5
-  resolution: "@types/node@npm:18.8.5"
-  checksum: f7d896f54743178e64c534c6da16f582505acf18904ecd0ee8541cb4bc1d429ba514e7ecfd5145221b71adbd6ae1ff72df082f667e56d056fcd1a719df948e08
+  version: 18.11.0
+  resolution: "@types/node@npm:18.11.0"
+  checksum: f27f899ab428e5732f04fadadc9203f44bdf3abf56474540ee27da90e4f2ba133faf87263cada4d2271955f92ee6a142bd50683c86290fe5070c19aac44fd654
   languageName: node
   linkType: hard
 
@@ -4476,9 +4476,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001419
-  resolution: "caniuse-lite@npm:1.0.30001419"
-  checksum: 7a4dc2794a6773574b5aebcd1c9c0d56159654821714152d8a0b04e261e1522bfd3d86589b8406ce81c7bf5b706118b73b2cb85d577ae433e303dd48ac9ff65f
+  version: 1.0.30001420
+  resolution: "caniuse-lite@npm:1.0.30001420"
+  checksum: dfa5027b2aeaba3ab1731735a46aecf62f286cdeec7f8ccb0f8cce0a3d02447e640e944d9bf5d9ea98b53fac6c2b168bb18f4c9ad598d92a2da7b05e2aea06e2
   languageName: node
   linkType: hard
 
@@ -4986,10 +4986,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^2.6.5":
-  version: 2.6.12
-  resolution: "core-js@npm:2.6.12"
-  checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
+"core-js@npm:3.25.5":
+  version: 3.25.5
+  resolution: "core-js@npm:3.25.5"
+  checksum: 208b308c49bc022f90d4349d4c99802a73c9d55053976b3c529f10014c1e37845926defad8c519f2c7f71ea0acf18d2b323ab6aaee34dc85b4c4b3ced0623f3f
   languageName: node
   linkType: hard
 
@@ -5328,15 +5328,15 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.251":
-  version: 1.4.282
-  resolution: "electron-to-chromium@npm:1.4.282"
-  checksum: 6cc5f05596bbe364908dbc4d604a0ee9bcda9e0dcbcc662a285ec75a29adf1685d7f51ab338fc41594af204b7a55c30490d4df8618af3b313593a47702a146ad
+  version: 1.4.283
+  resolution: "electron-to-chromium@npm:1.4.283"
+  checksum: b005cdac737cecd0e7f875263b97da13ad914526f4e31b4051dd0179b82ccd4aff27b4a3e3a7814cbc1774efd73956f830ae7f6ef28b313175857c26928d80b5
   languageName: node
   linkType: hard
 
-"ember-auto-import@npm:^2.4.1, ember-auto-import@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "ember-auto-import@npm:2.4.2"
+"ember-auto-import@npm:^2.4.1, ember-auto-import@npm:^2.4.2, ember-auto-import@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "ember-auto-import@npm:2.4.3"
   dependencies:
     "@babel/core": ^7.16.7
     "@babel/plugin-proposal-class-properties": ^7.16.7
@@ -5368,7 +5368,7 @@ __metadata:
     style-loader: ^2.0.0
     typescript-memoize: ^1.0.0-alpha.3
     walk-sync: ^3.0.0
-  checksum: f7c4e4bab62b124c03955b8b382d6bf9c170c1ad5605bb019cbb1baf63065b482b8767a2e4922682fbc54c701f0296601e7ed50965bd4c741dab6cfff43c6de5
+  checksum: 3af287874cc271a3dbcd628253b949b7ff0647ec59630e0684fad4df298d5acec1bf53f71294be8777b21ed6ff82e1076a41d9f68613ed2e21541663f49237f3
   languageName: node
   linkType: hard
 
@@ -10986,16 +10986,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qunit@npm:^2.19.1":
-  version: 2.19.1
-  resolution: "qunit@npm:2.19.1"
+"qunit@npm:^2.19.2":
+  version: 2.19.2
+  resolution: "qunit@npm:2.19.2"
   dependencies:
     commander: 7.2.0
     node-watch: 0.7.3
     tiny-glob: 0.2.9
   bin:
     qunit: bin/qunit.js
-  checksum: 12ff673549770d2a51c74ee5fae33260610bd98178fae536490063af61d21f50c302033b65a765e43fc65f2ceb8337912bf3b5ecb2e663731b0728ad6ab6e192
+  checksum: 1d96c465b450d799da34970ec7063143882b0d432fc8954ba759f75a26f9f450493d20fd0c12f1345e7425acec9ff9f9aa7ab8fd7132e07140f9f4a7c15ed422
   languageName: node
   linkType: hard
 
@@ -11925,8 +11925,8 @@ __metadata:
   linkType: hard
 
 "socket.io@npm:^4.1.2":
-  version: 4.5.2
-  resolution: "socket.io@npm:4.5.2"
+  version: 4.5.3
+  resolution: "socket.io@npm:4.5.3"
   dependencies:
     accepts: ~1.3.4
     base64id: ~2.0.0
@@ -11934,7 +11934,7 @@ __metadata:
     engine.io: ~6.2.0
     socket.io-adapter: ~2.4.0
     socket.io-parser: ~4.2.0
-  checksum: 8527dd78fa3cf483a2cf0f09f64c4591186931b6765e5d8456dd3022b8786407952e3b931a83a86513c9f56852442e12f3497c761a113113e32b0c867c5ad5a7
+  checksum: 2a7e4c64bbebb444d211bc66fb8356c14dd0fd4138d31e1781db03fa5a731a3abb7b305fa32cb6c7b57e5ac788601583aad14bea6ff9b8c4ca7b74118ba55f66
   languageName: node
   linkType: hard
 
@@ -12386,6 +12386,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "super-rentals@workspace:."
   dependencies:
+    "@babel/core": ^7.19.3
     "@babel/eslint-parser": ^7.19.1
     "@ember/optional-features": ^2.0.0
     "@ember/test-helpers": ^2.8.1
@@ -12422,7 +12423,8 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.40.0
     "@typescript-eslint/parser": ^5.40.0
     broccoli-asset-rev: ^3.0.0
-    ember-auto-import: ^2.4.2
+    core-js: 3.25.5
+    ember-auto-import: ^2.4.3
     ember-cli: ~4.7.0
     ember-cli-app-version: ^5.0.0
     ember-cli-babel: ^7.26.11
@@ -12452,7 +12454,7 @@ __metadata:
     loader.js: ^4.7.0
     npm-run-all: ^4.1.5
     prettier: ^2.7.1
-    qunit: ^2.19.1
+    qunit: ^2.19.2
     qunit-dom: ^2.0.0
     typescript: ^4.8.4
     webpack: ^5.74.0

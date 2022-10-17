@@ -30,7 +30,11 @@
     "edition": "octane"
   },
   "packageManager": "yarn@3.2.4",
+  "resolutions": {
+    "core-js": "3.25.5"
+  },
   "devDependencies": {
+    "@babel/core": "^7.19.3",
     "@babel/eslint-parser": "^7.19.1",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.8.1",
@@ -67,7 +71,8 @@
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^2.4.2",
+    "core-js": "3.25.5",
+    "ember-auto-import": "^2.4.3",
     "ember-cli": "~4.7.0",
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.11",
@@ -97,7 +102,7 @@
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
-    "qunit": "^2.19.1",
+    "qunit": "^2.19.2",
     "qunit-dom": "^2.0.0",
     "typescript": "^4.8.4",
     "webpack": "^5.74.0"

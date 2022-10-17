@@ -5,6 +5,7 @@
     "source.fixAll.markdownlint": true
   },
   "cSpell.words": [
+    "corejs",
     "emberjs",
     "htmlbars",
     "initializers",
