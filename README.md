@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:mtdvlpr/first-ember-app.git` this repository
 * `cd super-rentals`
 * `npm install`
 
