@@ -24,8 +24,8 @@ module('Integration | Component | map', function (hooks) {
       .hasAttribute('width', '150')
       .hasAttribute('height', '120')
 
-    let { src } = find('.map img')
-    let token = encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN)
+    const { src } = find('.map img') as HTMLImageElement
+    const token = encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN)
 
     assert.ok(
       src.startsWith('https://api.mapbox.com/'),
@@ -60,7 +60,7 @@ module('Integration | Component | map', function (hooks) {
       @height={{this.height}}
     />`)
 
-    let img = find('.map img')
+    const img = find('.map img') as HTMLImageElement
 
     assert.ok(
       img.src.includes('-122.4194,37.7749,10'),

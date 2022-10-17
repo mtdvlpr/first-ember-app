@@ -5,11 +5,13 @@
     "source.fixAll.markdownlint": true
   },
   "cSpell.words": [
+    "emberjs",
     "htmlbars",
     "initializers",
     "nofollow",
     "noreferrer",
-    "qunit"
+    "qunit",
+    "Veruca"
   ],
   "typescript.tsdk": "node_modules/typescript/lib"
 }

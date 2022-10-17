@@ -37,9 +37,9 @@ module('Acceptance | super rentals', function (hooks) {
     assert.dom('.rental.detailed').exists()
     assert.dom('.share.button').hasText('Share on Twitter')
 
-    let button = find('.share.button')
+    const button = find('.share.button') as HTMLLinkElement
 
-    let tweetURL = new URL(button.href)
+    const tweetURL = new URL(button.href)
     assert.strictEqual(tweetURL.host, 'twitter.com')
 
     assert.strictEqual(
