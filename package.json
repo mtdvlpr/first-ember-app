@@ -69,7 +69,7 @@
     "@types/qunit": "latest",
     "@types/rsvp": "latest",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.1",
     "broccoli-asset-rev": "^3.0.0",
     "core-js": "3.25.5",
     "ember-auto-import": "^2.4.3",
