@@ -6387,9 +6387,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^11.0.6":
-  version: 11.0.6
-  resolution: "eslint-plugin-ember@npm:11.0.6"
+"eslint-plugin-ember@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "eslint-plugin-ember@npm:11.1.0"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
     css-tree: ^2.0.4
@@ -6401,7 +6401,7 @@ __metadata:
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 7"
-  checksum: 7843e7244be98c6cac308c4e42531e2247bcb7aa891a04ffe6b222cdf65c0346d1dc8f807e10f65b4158cf35d29f1d00953286cf13128abf574b7a68d6b52834
+  checksum: b447178ff33969d4ff8c8a0cbcf2c5b3b3efb81aa4314bfb66498989f63604618b532bf0dd9bd7122c217a5da886e3b6346abfc4db2f2a30dafa856e95463a7c
   languageName: node
   linkType: hard
 
@@ -12457,7 +12457,7 @@ __metadata:
     ember-welcome-page: ^6.2.0
     eslint: ^8.25.0
     eslint-config-prettier: ^8.5.0
-    eslint-plugin-ember: ^11.0.6
+    eslint-plugin-ember: ^11.1.0
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-qunit: ^7.3.1
