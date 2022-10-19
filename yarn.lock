@@ -2206,12 +2206,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__controller@npm:*, @types/ember__controller@npm:latest":
+"@types/ember__controller@npm:*":
   version: 4.0.1
   resolution: "@types/ember__controller@npm:4.0.1"
   dependencies:
     "@types/ember__object": "*"
   checksum: 3155da27a89d7651b0d7db3ad4f4f21bb9967f15c5a0f3f7d6a75b8b48900bc4cfa404e001858b66c39b99db541886bc4050f0f38f4193794499c8ca76467ec1
+  languageName: node
+  linkType: hard
+
+"@types/ember__controller@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember__controller@npm:4.0.2"
+  dependencies:
+    "@types/ember__object": "*"
+  checksum: ca6cf0d911d090d179dfe9dbe1ac4936aac3ddcf0e73b5cf0a1eab13794dfe7b21570df4633123ce24f0ee80b50a963a87b7a16fc15000c6971f09d3bdd1d70a
   languageName: node
   linkType: hard
 
