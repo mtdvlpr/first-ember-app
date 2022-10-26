@@ -2193,11 +2193,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__serializer@npm:latest":
-  version: 4.0.0
-  resolution: "@types/ember-data__serializer@npm:4.0.0"
+  version: 4.0.1
+  resolution: "@types/ember-data__serializer@npm:4.0.1"
   dependencies:
     "@types/ember-data": "*"
-  checksum: bfab00b863deab8c6808ecc5398653273940a8bc27d99151f861f3c63cad9fead71c4c396457b7941b9d2b2cf08ad20b5460461f486f2614717e45985f27e55f
+  checksum: e2e14b8c99a3d33bff69aee1bdaf1b90fc5e87482fc49a22f4ff0aa9892494a0f8c72231ac600e8686d77598579c524587319f76520ce59b8a9ac3895a1de1e3
   languageName: node
   linkType: hard
 
