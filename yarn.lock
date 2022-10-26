@@ -2293,11 +2293,11 @@ __metadata:
   linkType: hard
 
 "@types/ember__controller@npm:latest":
-  version: 4.0.2
-  resolution: "@types/ember__controller@npm:4.0.2"
+  version: 4.0.3
+  resolution: "@types/ember__controller@npm:4.0.3"
   dependencies:
     "@types/ember__object": "*"
-  checksum: ca6cf0d911d090d179dfe9dbe1ac4936aac3ddcf0e73b5cf0a1eab13794dfe7b21570df4633123ce24f0ee80b50a963a87b7a16fc15000c6971f09d3bdd1d70a
+  checksum: 1648b656f4a0cc10a28351d893fa765234bf0d8ab123afe75ba2259b31296840ae00da0328bed19241bfa66c0a59a6d237041493440008cd0a8daf9ef8fd1fa3
   languageName: node
   linkType: hard
 
