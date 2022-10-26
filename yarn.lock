@@ -2383,13 +2383,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__runloop@npm:*, @types/ember__runloop@npm:latest":
+"@types/ember__runloop@npm:*":
   version: 4.0.1
   resolution: "@types/ember__runloop@npm:4.0.1"
   dependencies:
     "@types/ember": "*"
     "@types/ember__runloop": "*"
   checksum: 97137e7937077f637be06418d572c82d1e6015ac427571a234c5ae9f5799de565b266558246dbde7bf92b828862cecb4950933fc7565241afb19637c69ed2c27
+  languageName: node
+  linkType: hard
+
+"@types/ember__runloop@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember__runloop@npm:4.0.2"
+  dependencies:
+    "@types/ember": "*"
+    "@types/ember__runloop": "*"
+  checksum: c207b35187d082be1330836dd120886ca86e14b029c7d89451fe4340ca4c500264f03a42558de62aa08e3e5743f7ac8aef84b668316d8f5db031eed109267aae
   languageName: node
   linkType: hard
 
