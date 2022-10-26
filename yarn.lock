@@ -2190,11 +2190,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__store@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember-data__store@npm:4.0.1"
+  version: 4.0.2
+  resolution: "@types/ember-data__store@npm:4.0.2"
   dependencies:
     "@types/ember-data": "*"
-  checksum: 18c73a8ff261f843e69645e2691b02f4f658ecf3c3d913886e6ea0a4e9314d1b3279dde9b12ec48b4d96ca637c0a987ca9bd0f9a444ae4dedbc2b92b215d19e6
+  checksum: 7b1ac271ab4fc327d495fd2abe32f780660c4daa5b2e3f720d61776dd235b7f9b8ea46d1b9b523f14975e0e2c7d3aa13990cd116a13440c8f43fa9e389393337
   languageName: node
   linkType: hard
 
