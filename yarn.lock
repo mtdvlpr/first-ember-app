@@ -2404,10 +2404,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__template@npm:*, @types/ember__template@npm:latest":
+"@types/ember__template@npm:*":
   version: 4.0.0
   resolution: "@types/ember__template@npm:4.0.0"
   checksum: 9f983710f017066166e51dd9288adb2cdf4cd5d97a886fdae7885c7edd0f923a31fdc8c25930b33b18e03596a8a7b9e0f29793e0731c47ac83bb67beff82a8f2
+  languageName: node
+  linkType: hard
+
+"@types/ember__template@npm:latest":
+  version: 4.0.1
+  resolution: "@types/ember__template@npm:4.0.1"
+  checksum: 55c1bdccc1f11d428795da20832a1e52d76139af0a2378eb2ac6c18cf2406cd0b80007de4eafa5934a5b61cdf5979d9ad3e3ce27586b5908099e7535462d0b40
   languageName: node
   linkType: hard
 
