@@ -2420,7 +2420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__routing@npm:*, @types/ember__routing@npm:latest":
+"@types/ember__routing@npm:*":
   version: 4.0.11
   resolution: "@types/ember__routing@npm:4.0.11"
   dependencies:
@@ -2430,6 +2430,19 @@ __metadata:
     "@types/ember__routing": "*"
     "@types/ember__service": "*"
   checksum: 9c6229fe9c0f959bc0de22bc811850a5846c45e569e72f78f027afff5e2bc664d2901d81c67e6bfa22fba36a5a169011437139c6e7f37ee2b638877f5246b1b8
+  languageName: node
+  linkType: hard
+
+"@types/ember__routing@npm:latest":
+  version: 4.0.12
+  resolution: "@types/ember__routing@npm:4.0.12"
+  dependencies:
+    "@types/ember": "*"
+    "@types/ember__controller": "*"
+    "@types/ember__object": "*"
+    "@types/ember__routing": "*"
+    "@types/ember__service": "*"
+  checksum: 8c14b6de35c9b370175dc342610729dba51b315a09f538ca5ad4e95d15ae0938efec8a6fd5675b862f2ca95da46528160896a417040654c621c8dbca34d8185b
   languageName: node
   linkType: hard
 
