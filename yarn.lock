@@ -2492,7 +2492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__test-helpers@npm:*, @types/ember__test-helpers@npm:latest":
+"@types/ember__test-helpers@npm:*":
   version: 2.8.1
   resolution: "@types/ember__test-helpers@npm:2.8.1"
   dependencies:
@@ -2503,6 +2503,20 @@ __metadata:
     "@types/ember__test-helpers": "*"
     "@types/htmlbars-inline-precompile": "*"
   checksum: 1c7136ebeb999e03a9139b6c6bd33e3c69526dab4995439609e8304c5e21633cf4a28dca31305a88698ed0e66318a053c37f34d29812450a9580b8d9257f84c3
+  languageName: node
+  linkType: hard
+
+"@types/ember__test-helpers@npm:latest":
+  version: 2.8.2
+  resolution: "@types/ember__test-helpers@npm:2.8.2"
+  dependencies:
+    "@types/ember-resolver": "*"
+    "@types/ember__application": "*"
+    "@types/ember__error": "*"
+    "@types/ember__owner": "*"
+    "@types/ember__test-helpers": "*"
+    "@types/htmlbars-inline-precompile": "*"
+  checksum: 8f89692d1808133b98e225b48ca5e3d94a781d539f092529f18ff525f898e914b3de6393fe7ed97567b5a04ca1fea6325325fd3e54a03b97c14c9ae4e8ee033b
   languageName: node
   linkType: hard
 
