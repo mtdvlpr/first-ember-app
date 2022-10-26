@@ -5809,7 +5809,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-cli-typescript@npm:^5.1.0, ember-cli-typescript@npm:^5.1.1":
+"ember-cli-typescript@npm:^5.1.0":
   version: 5.1.1
   resolution: "ember-cli-typescript@npm:5.1.1"
   dependencies:
@@ -5824,6 +5824,24 @@ __metadata:
     stagehand: ^1.0.0
     walk-sync: ^2.2.0
   checksum: 8f259f2893d26c173a6f94b4cf62840e4e7e2ab0ec633ddf1cd65894bef928b3c426dda9dab0a04f04a6702560271d4f0f0091370e64695e84a64b6f6fbc26c1
+  languageName: node
+  linkType: hard
+
+"ember-cli-typescript@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "ember-cli-typescript@npm:5.2.0"
+  dependencies:
+    ansi-to-html: ^0.6.15
+    broccoli-stew: ^3.0.0
+    debug: ^4.0.0
+    execa: ^4.0.0
+    fs-extra: ^9.0.1
+    resolve: ^1.5.0
+    rsvp: ^4.8.1
+    semver: ^7.3.2
+    stagehand: ^1.0.0
+    walk-sync: ^2.2.0
+  checksum: a58e0b2734ef12e1eae5bc71ec5be0a2a51f144977b9f89bca1fd31c4cd3304c60655cc15253e40d3c8c4a35fcfefdd2d4edb088b8a2d46e1c9fc8bb4288e0f0
   languageName: node
   linkType: hard
 
@@ -12538,7 +12556,7 @@ __metadata:
     ember-cli-inject-live-reload: ^2.1.0
     ember-cli-sri: ^2.1.1
     ember-cli-terser: ^4.0.2
-    ember-cli-typescript: ^5.1.1
+    ember-cli-typescript: ^5.2.0
     ember-cli-typescript-blueprints: latest
     ember-data: ~4.7.3
     ember-fetch: ^8.1.2
