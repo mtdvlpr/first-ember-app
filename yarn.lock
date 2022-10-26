@@ -2163,11 +2163,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__adapter@npm:latest":
-  version: 4.0.0
-  resolution: "@types/ember-data__adapter@npm:4.0.0"
+  version: 4.0.1
+  resolution: "@types/ember-data__adapter@npm:4.0.1"
   dependencies:
     "@types/ember-data": "*"
-  checksum: 7461110f2cc3d96505f9fa30596d3aea6c72983cc72cc27c38d7d56a924fde99e192fdf89bfe46bfc94f0c4d0e0baffe4e919a35ad595fe64462125b43c2d188
+  checksum: 5636fc85c2b7496d608af5494d1c6b82a3bf7f0d88f9037824bf203b0e4e167805544eebef63e019991a5a388e567851b211a041f4b3d12ddb1881748e5a65a9
   languageName: node
   linkType: hard
 
