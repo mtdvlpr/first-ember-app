@@ -2231,7 +2231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember@npm:*, @types/ember@npm:latest":
+"@types/ember@npm:*":
   version: 4.0.1
   resolution: "@types/ember@npm:4.0.1"
   dependencies:
@@ -2254,6 +2254,32 @@ __metadata:
     "@types/htmlbars-inline-precompile": "*"
     "@types/rsvp": "*"
   checksum: 40ade8c685ddbe3b34bc1ede3b8ec5e06b627fb5a4f27c42e5afac005fd79e19d00271cb6685ac4bbf651d77bf6897eb1f2bd8f7c78098dbee9b99b195e81d68
+  languageName: node
+  linkType: hard
+
+"@types/ember@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember@npm:4.0.2"
+  dependencies:
+    "@types/ember__application": "*"
+    "@types/ember__array": "*"
+    "@types/ember__component": "*"
+    "@types/ember__controller": "*"
+    "@types/ember__debug": "*"
+    "@types/ember__engine": "*"
+    "@types/ember__error": "*"
+    "@types/ember__object": "*"
+    "@types/ember__polyfills": "*"
+    "@types/ember__routing": "*"
+    "@types/ember__runloop": "*"
+    "@types/ember__service": "*"
+    "@types/ember__string": "*"
+    "@types/ember__template": "*"
+    "@types/ember__test": "*"
+    "@types/ember__utils": "*"
+    "@types/htmlbars-inline-precompile": "*"
+    "@types/rsvp": "*"
+  checksum: 94d3dfba4209ae66119bd1d1bd3aa00c04184d23393c1cffcaf325d984a9ddc0928956be48061d9ce4a6ab0ff371e917f0313b202aeda74c098a1528e6b8c741
   languageName: node
   linkType: hard
 
