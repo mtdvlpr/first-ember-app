@@ -2346,7 +2346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__component@npm:*, @types/ember__component@npm:latest":
+"@types/ember__component@npm:*":
   version: 4.0.10
   resolution: "@types/ember__component@npm:4.0.10"
   dependencies:
@@ -2354,6 +2354,17 @@ __metadata:
     "@types/ember__component": "*"
     "@types/ember__object": "*"
   checksum: 660f2478b66e44a519a8110472d9bca54fac34b45d9ab0c2791eb75f446e20ed8a00606503f3c846965dd971c60ea6844d3793ac15cbcbb5bf38f3f57178a786
+  languageName: node
+  linkType: hard
+
+"@types/ember__component@npm:latest":
+  version: 4.0.11
+  resolution: "@types/ember__component@npm:4.0.11"
+  dependencies:
+    "@types/ember": "*"
+    "@types/ember__component": "*"
+    "@types/ember__object": "*"
+  checksum: 8b3a012ab6915f43e5d756883e1a05e5a75514d03e4666702bbfeebe1dfab9d0cebbd377ff38908d097bed977ed5a4c4d0fb709d7f657d31386c1f80bbc6d51c
   languageName: node
   linkType: hard
 
