@@ -6354,9 +6354,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-source@npm:~4.8.0":
-  version: 4.8.0
-  resolution: "ember-source@npm:4.8.0"
+"ember-source@npm:~4.8.1":
+  version: 4.8.1
+  resolution: "ember-source@npm:4.8.1"
   dependencies:
     "@babel/helper-module-imports": ^7.16.7
     "@babel/plugin-transform-block-scoping": ^7.16.0
@@ -6386,7 +6386,7 @@ __metadata:
     silent-error: ^1.1.1
   peerDependencies:
     "@glimmer/component": ^1.1.2
-  checksum: b210900b99ad3ea53ee05b05b8525dab94dd225eff4d3a72ee75875bce012dacf462d35128ebc67ae8959f464a561045752d19dd204851e2bea6e4c01449b84a
+  checksum: 657d2550ba1e50099f19777482a20ffa9240574dc5b10db04de87660616db48ceb2e590f39b18ab514aac42094c2a6c9b6106398355cb2e4221e3ba32eb013b7
   languageName: node
   linkType: hard
 
@@ -12779,7 +12779,7 @@ __metadata:
     ember-page-title: ^7.0.0
     ember-qunit: ^6.0.0
     ember-resolver: ^8.0.3
-    ember-source: ~4.8.0
+    ember-source: ~4.8.1
     ember-template-lint: ^4.17.0
     ember-welcome-page: ^6.2.0
     eslint: ^8.26.0
