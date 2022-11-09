@@ -2397,13 +2397,13 @@ __metadata:
   linkType: hard
 
 "@types/ember__debug@npm:latest":
-  version: 4.0.2
-  resolution: "@types/ember__debug@npm:4.0.2"
+  version: 4.0.3
+  resolution: "@types/ember__debug@npm:4.0.3"
   dependencies:
-    "@types/ember-resolver": "*"
     "@types/ember__debug": "*"
     "@types/ember__object": "*"
-  checksum: 0819dd3605c20aaeeee96ff260931b1a2e2827d60925dcfc58691be7f567311cc6d2c27189759e2b4f18d2f369fde592b0d1570b08c76f9bae64d117eae1b1da
+    "@types/ember__owner": "*"
+  checksum: 69a31777a6ba3dba0c8733b59e06e3f5eae0350cf9665421fd7adf23b8d9e43abfdc423d615b9ac91a4208c804e59c5d5f2b3000a7ed957bb9114a381536009c
   languageName: node
   linkType: hard
 
