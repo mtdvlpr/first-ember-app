@@ -6453,9 +6453,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^4.17.0":
-  version: 4.17.0
-  resolution: "ember-template-lint@npm:4.17.0"
+"ember-template-lint@npm:^4.18.0":
+  version: 4.18.0
+  resolution: "ember-template-lint@npm:4.18.0"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
@@ -6476,7 +6476,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: d363fd0363bb1e97fb39023b5f3fe6494cddf911f71d702057c004457a86d291e63a9fbcfbf2498cbaa286cd3c5b3760c24ae1b6bfeeb31f80a575b196adabfb
+  checksum: 842fd5ca906f682afba4680bbca5888dc521aa5057076495b368671e240268fd0b766523394e4badc3f7f0489cf215f2718302086b968173c9db391cda95c5ad
   languageName: node
   linkType: hard
 
@@ -12824,7 +12824,7 @@ __metadata:
     ember-qunit: ^6.0.0
     ember-resolver: ^8.0.3
     ember-source: ~4.8.1
-    ember-template-lint: ^4.17.0
+    ember-template-lint: ^4.18.0
     ember-welcome-page: ^6.2.0
     eslint: ^8.26.0
     eslint-config-prettier: ^8.5.0
