@@ -2232,11 +2232,12 @@ __metadata:
   linkType: hard
 
 "@types/ember-resolver@npm:latest":
-  version: 5.0.12
-  resolution: "@types/ember-resolver@npm:5.0.12"
+  version: 5.0.13
+  resolution: "@types/ember-resolver@npm:5.0.13"
   dependencies:
     "@types/ember__object": "*"
-  checksum: 114d706667a009a040fbefea86ac579c8b9ece04fe80a45e93c461f75e04bd4be9a82ae35d0bb21d9e2c42bc7591a73156f90c9a694c85c65c2a1af2dfc9f90a
+    "@types/ember__owner": "*"
+  checksum: 3ece114d8368768d8198e3156b2df51b4be9d4f9ab8d60f2a1cb63a301b48ec485f51f5ddc8ad9b6f4d3739d252107463ff2508bec559efb7d8593e4975e3f48
   languageName: node
   linkType: hard
 
