@@ -1494,55 +1494,55 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember-data/adapter@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/adapter@npm:4.8.2"
+"@ember-data/adapter@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/adapter@npm:4.8.3"
   dependencies:
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/private-build-infra": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
     ember-cli-babel: ^7.26.11
     ember-cli-test-info: ^1.0.0
   peerDependencies:
-    "@ember-data/store": 4.9.0-alpha.6
+    "@ember-data/store": 4.8.3
     "@ember/string": ^3.0.0
     ember-inflector: ^4.0.2
-  checksum: d85adc664669a9506cb5a9cc06e6ed3b6e0d97ef3cd20fd09fc1ea9e18a06f7591d1f6013d635a18d3e9f12b26e76c185ae4fd4185926a395724b107c5c9ee92
+  checksum: a1e364bcec5b0ec67f33da89f622f6b9b9e3a310857f8c53be72f04190f23ee46f42dc3a859d19964c22b005bf512fdc2db5ccb6e624964b14397506b34e7630
   languageName: node
   linkType: hard
 
-"@ember-data/canary-features@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/canary-features@npm:4.8.2"
+"@ember-data/canary-features@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/canary-features@npm:4.8.3"
   dependencies:
     "@embroider/macros": ^1.9.0
     ember-cli-babel: ^7.26.11
-  checksum: eb469c8174cca10c602a5869146a774bf6c3a7e31b90ecb9f89d9877bb4cd67a34dfcf6f451d069e9622459aa3c07ab245373485f3c904ef47bb1595c25ea8b8
+  checksum: f2e3def0f28953940993fc24913120a8d161fa6baed63463a32312570fae3df14b1cd1ca2c7db233a9566d8780ca83d1adbf3f9d40eca03158fafc21f20c165d
   languageName: node
   linkType: hard
 
-"@ember-data/debug@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/debug@npm:4.8.2"
+"@ember-data/debug@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/debug@npm:4.8.3"
   dependencies:
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/private-build-infra": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
     ember-cli-babel: ^7.26.11
   peerDependencies:
     "@ember/string": ^3.0.0
-  checksum: 74a3a41074e42732a95213ec41702d32841adbdf703959350fbf29d3c9ea96e021acb7bc98784b6a8c5ffe56229f1494b798f3a913fd0caa2da6881454d96cba
+  checksum: 603270d0ee45bf981cfc0947e207013e46ca3a2680cf125802ec3aab298389a7ddc2aa27c07359a10ad17dd6392ef30476224a471bee0047f2d274426e909c74
   languageName: node
   linkType: hard
 
-"@ember-data/model@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/model@npm:4.8.2"
+"@ember-data/model@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/model@npm:4.8.3"
   dependencies:
-    "@ember-data/canary-features": 4.8.2
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/canary-features": 4.8.3
+    "@ember-data/private-build-infra": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
@@ -1553,26 +1553,26 @@ __metadata:
     ember-compatibility-helpers: ^1.2.6
     inflection: ~1.13.4
   peerDependencies:
-    "@ember-data/record-data": 4.9.0-alpha.6
-    "@ember-data/store": 4.9.0-alpha.6
-    "@ember-data/tracking": 4.9.0-alpha.6
+    "@ember-data/record-data": 4.8.3
+    "@ember-data/store": 4.8.3
+    "@ember-data/tracking": 4.8.3
     "@ember/string": ^3.0.0
     ember-inflector: ^4.0.2
   peerDependenciesMeta:
     "@ember-data/record-data":
       optional: true
-  checksum: 51b57783a72f0f38739537ebac259533f97476bc003622469b6ebc7d507a5103af46f2f94266a82fc3d47ae63ba066eb01157f446c75a95f75e11c5186a1679b
+  checksum: 33c1019f9a6bf193645465e82a6c57143e22fdc78545ad74a5d7fc47972889e6eda3fbeebc5ff304d230d1c47596e2435655399ee6d55bd3c71c3ff799ce3c55
   languageName: node
   linkType: hard
 
-"@ember-data/private-build-infra@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/private-build-infra@npm:4.8.2"
+"@ember-data/private-build-infra@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/private-build-infra@npm:4.8.3"
   dependencies:
     "@babel/core": ^7.19.6
     "@babel/plugin-transform-block-scoping": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@ember-data/canary-features": 4.8.2
+    "@ember-data/canary-features": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@embroider/macros": ^1.9.0
     babel-import-util: ^1.2.2
@@ -1597,23 +1597,23 @@ __metadata:
     rsvp: ^4.8.5
     semver: ^7.3.8
     silent-error: ^1.1.1
-  checksum: 615b46aa5b3ab6dbc9814fb6ec220c39304b2b52531d6363bd45c1ecbbc4551f5de45746195b83a20b59ae6ed040f7877b670d9b9500f9d997f71bb8270f9e30
+  checksum: 6227624c0ecec203b639d55b0997f47da6b41ef57364cb7bc1deb88a0c2c3ffa149b922d05ed9109cbc1737392505e92abe4cdeb41135453749acb0aad6c99d4
   languageName: node
   linkType: hard
 
-"@ember-data/record-data@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/record-data@npm:4.8.2"
+"@ember-data/record-data@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/record-data@npm:4.8.3"
   dependencies:
-    "@ember-data/canary-features": 4.8.2
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/canary-features": 4.8.3
+    "@ember-data/private-build-infra": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/store": 4.9.0-alpha.6
-  checksum: 9472345700d5a9953b350b9371e014cc6b0d63364a28332a7ee6a8be90981c01a9508ad8347f0984766cbf03b60fcdd9d16378fd4abd6ea0cd07ddbe77130c0a
+    "@ember-data/store": 4.8.3
+  checksum: 1c9a91b73d550106671abf01da71f5cd06b320488c2eade7f0ddde504068ca949e60c189af30f02e6b00ebb1b19ac0786cc3b642e79399d3aaaa2474ce5f4cd3
   languageName: node
   linkType: hard
 
@@ -1624,37 +1624,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember-data/serializer@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/serializer@npm:4.8.2"
+"@ember-data/serializer@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/serializer@npm:4.8.3"
   dependencies:
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/private-build-infra": 4.8.3
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
     ember-cli-babel: ^7.26.11
     ember-cli-test-info: ^1.0.0
   peerDependencies:
-    "@ember-data/store": 4.9.0-alpha.6
+    "@ember-data/store": 4.8.3
     "@ember/string": ^3.0.0
     ember-inflector: ^4.0.2
-  checksum: 84b8676df0b849fdb8a260ccd627d893e815803ab0b1ed6997e2ccf8d69b639326ef29c530cfc0873fabaa9ed504db6388e3c7d34383b9bbaa6a874484304233
+  checksum: ee3b9b907cd55f1a3422ebf617373414b5ab0ce0dad93e7870156b1dbe53fe7e5fad3ed598dc2b9bce9ef6a5ac269e4b2a77f91724ef56dfb3ad2dbc5ec4ccdb
   languageName: node
   linkType: hard
 
-"@ember-data/store@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/store@npm:4.8.2"
+"@ember-data/store@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/store@npm:4.8.3"
   dependencies:
-    "@ember-data/canary-features": 4.8.2
-    "@ember-data/private-build-infra": 4.8.2
+    "@ember-data/canary-features": 4.8.3
+    "@ember-data/private-build-infra": 4.8.3
     "@embroider/macros": ^1.9.0
     ember-auto-import: ^2.4.3
     ember-cached-decorator-polyfill: ^1.0.1
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/model": 4.9.0-alpha.6
-    "@ember-data/record-data": 4.9.0-alpha.6
-    "@ember-data/tracking": 4.9.0-alpha.6
+    "@ember-data/model": 4.8.3
+    "@ember-data/record-data": 4.8.3
+    "@ember-data/tracking": 4.8.3
     "@ember/string": ^3.0.0
     "@glimmer/tracking": ^1.1.2
   peerDependenciesMeta:
@@ -1662,17 +1662,17 @@ __metadata:
       optional: true
     "@ember-data/record-data":
       optional: true
-  checksum: edf82f6308b4e25d51ec1ab23bbeb61b1fbe0a03279e776ea3acc2a5d1ceae7a7487b0979fc1408a3373e8ceb608e71fc4b8e8f3239ec831f5d5590fd7951ceb
+  checksum: bbc48adc01366a4b9021a901fd84b679f1518327efbd9e56065989964824c8f106740c5c56c3167cc0d35e4c8d8a5fb8336423bac996c3b178905305eac33cf0
   languageName: node
   linkType: hard
 
-"@ember-data/tracking@npm:4.8.2":
-  version: 4.8.2
-  resolution: "@ember-data/tracking@npm:4.8.2"
+"@ember-data/tracking@npm:4.8.3":
+  version: 4.8.3
+  resolution: "@ember-data/tracking@npm:4.8.3"
   dependencies:
     broccoli-funnel: ^3.0.8
     ember-cli-babel: ^7.26.11
-  checksum: 3c71cd1b91cfdac8fbd5d6cd5efa7298e7063a2bb24f012ee2647a5ab7821f24b7fc9003c768bf1b54a30617347080b8d4ae53ed43ad5d16324b046b407b2d02
+  checksum: 2fc05757bc6dc411b5ddb13c425220de1ac22cc1cdfe7f793556d9b147eeb5b2b2afcd8874a72df3baf55d8e65791727352f252dde5303a390833fde7d74dd50
   languageName: node
   linkType: hard
 
@@ -6249,18 +6249,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-data@npm:~4.8.2":
-  version: 4.8.2
-  resolution: "ember-data@npm:4.8.2"
+"ember-data@npm:~4.8.3":
+  version: 4.8.3
+  resolution: "ember-data@npm:4.8.3"
   dependencies:
-    "@ember-data/adapter": 4.8.2
-    "@ember-data/debug": 4.8.2
-    "@ember-data/model": 4.8.2
-    "@ember-data/private-build-infra": 4.8.2
-    "@ember-data/record-data": 4.8.2
-    "@ember-data/serializer": 4.8.2
-    "@ember-data/store": 4.8.2
-    "@ember-data/tracking": 4.8.2
+    "@ember-data/adapter": 4.8.3
+    "@ember-data/debug": 4.8.3
+    "@ember-data/model": 4.8.3
+    "@ember-data/private-build-infra": 4.8.3
+    "@ember-data/record-data": 4.8.3
+    "@ember-data/serializer": 4.8.3
+    "@ember-data/store": 4.8.3
+    "@ember-data/tracking": 4.8.3
     "@ember/edition-utils": ^1.2.0
     "@ember/string": ^3.0.0
     "@embroider/macros": ^1.9.0
@@ -6269,7 +6269,7 @@ __metadata:
     ember-auto-import: ^2.4.3
     ember-cli-babel: ^7.26.11
     ember-inflector: ^4.0.2
-  checksum: 516b5abf74f2ef21884d3bf91bf4cca7e321c496e64ec3682bbc04f107787a7de3aa07c730e7f6b0563cbdf5aa97e0e9c490e2a1685d4835e009d50ef8e4a6a2
+  checksum: a08bc2905bdddd22b66bd2ab15149adcc14c7bdf71125ba744eb2936c0647ef2f67f1609a1b01f684098a27eab72fac17db9bb132ee054ca5669652648c6fab3
   languageName: node
   linkType: hard
 
@@ -12816,7 +12816,7 @@ __metadata:
     ember-cli-terser: ^4.0.2
     ember-cli-typescript: ^5.2.1
     ember-cli-typescript-blueprints: latest
-    ember-data: ~4.8.2
+    ember-data: ~4.8.3
     ember-fetch: ^8.1.2
     ember-load-initializers: ^2.1.2
     ember-page-title: ^7.0.0
