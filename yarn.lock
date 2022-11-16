@@ -6581,16 +6581,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^4.18.0":
-  version: 4.18.0
-  resolution: "ember-template-lint@npm:4.18.0"
+"ember-template-imports@npm:^3.2.0":
+  version: 3.4.0
+  resolution: "ember-template-imports@npm:3.4.0"
+  dependencies:
+    babel-import-util: ^0.2.0
+    broccoli-stew: ^3.0.0
+    ember-cli-babel-plugin-helpers: ^1.1.1
+    ember-cli-version-checker: ^5.1.2
+    line-column: ^1.0.2
+    magic-string: ^0.25.7
+    parse-static-imports: ^1.1.0
+    string.prototype.matchall: ^4.0.6
+    validate-peer-dependencies: ^1.1.0
+  peerDependencies:
+    ember-cli-htmlbars: ^6.0.0
+  checksum: 1cb15d03aa5fa004cc0297b8aff7679f91a12185a49402141c44e5a5c7c234366b7b99360b0cc4e8841b43ac52ca5e2a4e1e2ff1ec9d702a5fd673cf1c335dfc
+  languageName: node
+  linkType: hard
+
+"ember-template-lint@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "ember-template-lint@npm:4.18.1"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
     chalk: ^4.1.2
     ci-info: ^3.4.0
     date-fns: ^2.29.2
-    ember-template-imports: ^3.1.1
+    ember-template-imports: ^3.2.0
     ember-template-recast: ^6.1.3
     find-up: ^6.3.0
     fuse.js: ^6.5.3
@@ -6604,7 +6623,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: 842fd5ca906f682afba4680bbca5888dc521aa5057076495b368671e240268fd0b766523394e4badc3f7f0489cf215f2718302086b968173c9db391cda95c5ad
+  checksum: 6089ff77eb4b790e9bd9e16943dd5b52807853f42b94fc537bcf367b7ff9e7ff0a27e26ad7e02f126dddb615c61b0c69da0bacfadfaa0b772ce674cab0a1d087
   languageName: node
   linkType: hard
 
@@ -12952,7 +12971,7 @@ __metadata:
     ember-qunit: ^6.0.0
     ember-resolver: ^8.0.3
     ember-source: ~4.8.2
-    ember-template-lint: ^4.18.0
+    ember-template-lint: ^4.18.1
     ember-welcome-page: ^6.2.0
     eslint: ^8.27.0
     eslint-config-prettier: ^8.5.0
