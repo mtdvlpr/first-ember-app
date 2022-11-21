@@ -5022,6 +5022,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "chalk@npm:5.1.2"
+  checksum: 804d7485e33531abe45b14e91026ceb5615974a8c04259ab0806f214a7666f6ea03e39ab124f7d5a0c78a83fda89005f236db3c5f10c2abe9ae875f7aa56bcb5
+  languageName: node
+  linkType: hard
+
 "chardet@npm:^0.7.0":
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
@@ -6600,13 +6607,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^4.18.2":
-  version: 4.18.2
-  resolution: "ember-template-lint@npm:4.18.2"
+"ember-template-lint@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "ember-template-lint@npm:5.0.0"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
-    chalk: ^4.1.2
+    chalk: ^5.1.2
     ci-info: ^3.4.0
     date-fns: ^2.29.2
     ember-template-imports: ^3.4.0
@@ -6623,7 +6630,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: 2bf18d457ff67803d60361dddf0c9bbe25a1beaee1d968edaf4e1d48190c6520cb2ba50026c8ca67dac81a0b5b5cae5c5e45fe128ec50b2ec1372ce913c2a621
+  checksum: f6bcdea8c838a987c23a18fc68621c16eb532c966acc642deff6d81219d63dd8a5c3ae4bd4cf3de8869b830203ee30ca5d000b88723080aed99c5457626ef2f9
   languageName: node
   linkType: hard
 
@@ -12971,7 +12978,7 @@ __metadata:
     ember-qunit: ^6.0.0
     ember-resolver: ^8.0.3
     ember-source: ~4.8.2
-    ember-template-lint: ^4.18.2
+    ember-template-lint: ^5.0.0
     ember-welcome-page: ^6.2.0
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
