@@ -2063,6 +2063,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glimmer/interfaces@npm:0.84.2":
+  version: 0.84.2
+  resolution: "@glimmer/interfaces@npm:0.84.2"
+  dependencies:
+    "@simple-dom/interface": ^1.4.0
+  checksum: bcf1881314ce74b1cb494c77a93cdca7e75f34c615e42ba62bf8e1fd3deff239aba01f72749832f7ae3d82b004024a3d11cee673a1a847a495c24cacd6ab68fc
+  languageName: node
+  linkType: hard
+
 "@glimmer/reference@npm:^0.83.1":
   version: 0.83.1
   resolution: "@glimmer/reference@npm:0.83.1"
@@ -2088,6 +2097,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glimmer/syntax@npm:^0.84.2":
+  version: 0.84.2
+  resolution: "@glimmer/syntax@npm:0.84.2"
+  dependencies:
+    "@glimmer/interfaces": 0.84.2
+    "@glimmer/util": 0.84.2
+    "@handlebars/parser": ~2.0.0
+    simple-html-tokenizer: ^0.5.11
+  checksum: cba53d097a9732af95d75a5891429c264ad789c05cc59c3b64961bcb8682af9c34ddf36a75075a9236e7c99008134d192d5c3365017587e4b722fbf9d9075a05
+  languageName: node
+  linkType: hard
+
 "@glimmer/tracking@npm:^1.1.2":
   version: 1.1.2
   resolution: "@glimmer/tracking@npm:1.1.2"
@@ -2106,6 +2127,17 @@ __metadata:
     "@glimmer/interfaces": 0.83.1
     "@simple-dom/interface": ^1.4.0
   checksum: 2a0cc0b9c3e41098fd353692d823ae058cdf5cff7b8b0edff230fb9fa2437347bf195246985165e8bdcba9bda2066e78aeef9649c8c5427755f68c1fc957b8f1
+  languageName: node
+  linkType: hard
+
+"@glimmer/util@npm:0.84.2":
+  version: 0.84.2
+  resolution: "@glimmer/util@npm:0.84.2"
+  dependencies:
+    "@glimmer/env": 0.1.7
+    "@glimmer/interfaces": 0.84.2
+    "@simple-dom/interface": ^1.4.0
+  checksum: 0f87eb76229a6b0f7e3e18a452596ad25432f19fc6b4defae8a970f9468dd3c9c4a41684b276d3fb75ef29583668f2618d085555c751d7f51c34a93f51b07c33
   languageName: node
   linkType: hard
 
@@ -7004,24 +7036,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^11.2.0":
-  version: 11.2.0
-  resolution: "eslint-plugin-ember@npm:11.2.0"
+"eslint-plugin-ember@npm:^11.2.1":
+  version: 11.2.1
+  resolution: "eslint-plugin-ember@npm:11.2.1"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
-    "@glimmer/syntax": ^0.83.1
+    "@glimmer/syntax": ^0.84.2
     css-tree: ^2.0.4
     ember-rfc176-data: ^0.3.15
     ember-template-imports: ^3.1.1
     eslint-utils: ^3.0.0
     estraverse: ^5.2.0
     lodash.kebabcase: ^4.1.1
-    magic-string: ^0.25.7
+    magic-string: ^0.26.7
     requireindex: ^1.2.0
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 7"
-  checksum: 9e6bd0143ca1f58ed624bf50cd47960fad82aa8eb27d195c908ef2a78b41dbaea6401aaef11cc86a8e977775a4a785bf64992a877a7aad8ccce7c673ca8cde0b
+  checksum: d184fbf77bd1285ddb0f4b56e3fe05d3c8e22d4c95f0af4059e0fd535b3889763fec5af280eda5f1150d1c325a43666119e1d163859bc5c9f920ae8e58fb7551
   languageName: node
   linkType: hard
 
@@ -10040,7 +10072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.26.0":
+"magic-string@npm:^0.26.0, magic-string@npm:^0.26.7":
   version: 0.26.7
   resolution: "magic-string@npm:0.26.7"
   dependencies:
@@ -13101,7 +13133,7 @@ __metadata:
     ember-welcome-page: ^6.2.0
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
-    eslint-plugin-ember: ^11.2.0
+    eslint-plugin-ember: ^11.2.1
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-qunit: ^7.3.3
