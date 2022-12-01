@@ -7100,13 +7100,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-qunit@npm:^7.3.3":
-  version: 7.3.3
-  resolution: "eslint-plugin-qunit@npm:7.3.3"
+"eslint-plugin-qunit@npm:^7.3.4":
+  version: 7.3.4
+  resolution: "eslint-plugin-qunit@npm:7.3.4"
   dependencies:
     eslint-utils: ^3.0.0
     requireindex: ^1.2.0
-  checksum: 77bf7816c91878555363055eb63e6aca0d7c6e2a6286db3aee19cbb659474f23e453f1b19de7e7467f677bfc000e6ca15c2d17be87d916aa7599ac162ce1c27a
+  checksum: 078dae3d93b7e395c3409cf5855281cca994cbeaacd3e956697cf0ca14c4b45275e20d846173fe76d77655e5e7382b2287a5a324c190a425e4631b745312d5b7
   languageName: node
   linkType: hard
 
@@ -13136,7 +13136,7 @@ __metadata:
     eslint-plugin-ember: ^11.2.1
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-qunit: ^7.3.3
+    eslint-plugin-qunit: ^7.3.4
     loader.js: ^4.7.0
     npm-run-all: ^4.1.5
     prettier: ^2.8.0
