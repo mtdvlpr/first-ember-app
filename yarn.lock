@@ -2361,9 +2361,9 @@ __metadata:
   linkType: hard
 
 "@tsconfig/ember@npm:latest":
-  version: 1.0.1
-  resolution: "@tsconfig/ember@npm:1.0.1"
-  checksum: e53968a3ebcb099f13da1377c3216a48af7e20d5489f7dbb2e3297def30b5cc5390db7b632fa6d0fa98e52e6e3c636c5fb2a2b6b1850c2475d5e87a26739b2e6
+  version: 1.1.0
+  resolution: "@tsconfig/ember@npm:1.1.0"
+  checksum: 0117e9bf20ee382625a59d1f4b658e129dd43c0c95c23206099e9977cd8e3e4110ccf3ba9fa61e8854d704c7be40b68770d665b82ed42630dc9eddf2e575b278
   languageName: node
   linkType: hard
 
