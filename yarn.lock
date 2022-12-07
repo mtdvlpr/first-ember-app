@@ -2602,17 +2602,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__error@npm:*":
-  version: 4.0.0
-  resolution: "@types/ember__error@npm:4.0.0"
-  checksum: c9d831fbe08930c5af3102db0070218e1aaaf2851936749ad20cca5947612d6fac8d18c93d447b3a73fbbedfe3f51ce4d4dae4a400141a90f58c8b16a8bed689
-  languageName: node
-  linkType: hard
-
-"@types/ember__error@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember__error@npm:4.0.1"
-  checksum: b4cd081d0efe57c584fb031c8d2b26b16c1e79e4bd115f289a0db438a134ae6a787d03dbc13fe0d80eec5a87942053e5f4d663a9a86006862a4b131f5a0ffd8e
+"@types/ember__error@npm:*, @types/ember__error@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember__error@npm:4.0.2"
+  checksum: 05e83815dbddc79f58d7b5fa8b6177caa94647b4da363a2509a5b4c8dea9217acc998c4febfa4e9873018cdf380c0a4742aa10b0d44193635b5623a9d07a4c76
   languageName: node
   linkType: hard
 
