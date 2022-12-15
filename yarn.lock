@@ -1806,21 +1806,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember/test-helpers@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "@ember/test-helpers@npm:2.8.1"
+"@ember/test-helpers@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "@ember/test-helpers@npm:2.9.0"
   dependencies:
     "@ember/test-waiters": ^3.0.0
-    "@embroider/macros": ^1.6.0
-    "@embroider/util": ^1.6.0
+    "@embroider/macros": ^1.10.0
+    "@embroider/util": ^1.9.0
     broccoli-debug: ^0.6.5
     broccoli-funnel: ^3.0.8
-    ember-cli-babel: ^7.26.6
-    ember-cli-htmlbars: ^5.7.1
+    ember-cli-babel: ^7.26.11
+    ember-cli-htmlbars: ^6.1.1
     ember-destroyable-polyfill: ^2.0.3
   peerDependencies:
     ember-source: ">=3.8.0"
-  checksum: 396c20c297f3279fad6693c7c66d9ed16de910a9cb1aff406bb128bba36d4f6a122fad99474e183d9dc2f2e2820aadc44c31431f33d3d8501a50dc58c9150f60
+  checksum: 70b8b1879715e748b6a658d82ffcb90c5c88641ed961c08f9405bfc2ab1e00b0ccf3df6220044399e2788dc3919cd0db3ae58d153568df72f59398847054f9c3
   languageName: node
   linkType: hard
 
@@ -1846,7 +1846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@embroider/macros@npm:^1.0.0, @embroider/macros@npm:^1.6.0, @embroider/macros@npm:^1.8.3, @embroider/macros@npm:^1.9.0":
+"@embroider/macros@npm:^1.0.0, @embroider/macros@npm:^1.8.3, @embroider/macros@npm:^1.9.0":
   version: 1.9.0
   resolution: "@embroider/macros@npm:1.9.0"
   dependencies:
@@ -1910,7 +1910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@embroider/util@npm:^1.6.0":
+"@embroider/util@npm:^1.9.0":
   version: 1.9.0
   resolution: "@embroider/util@npm:1.9.0"
   dependencies:
@@ -3913,7 +3913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-htmlbars-inline-precompile@npm:^5.0.0, babel-plugin-htmlbars-inline-precompile@npm:^5.2.1, babel-plugin-htmlbars-inline-precompile@npm:^5.3.0":
+"babel-plugin-htmlbars-inline-precompile@npm:^5.2.1, babel-plugin-htmlbars-inline-precompile@npm:^5.3.0":
   version: 5.3.1
   resolution: "babel-plugin-htmlbars-inline-precompile@npm:5.3.1"
   dependencies:
@@ -5999,30 +5999,6 @@ __metadata:
   version: 1.0.0
   resolution: "ember-cli-get-component-path-option@npm:1.0.0"
   checksum: 4a4d9b2b0cb05c69fad962b1787b65d9bca0c64aa161c2f12d172b9af6ef951d33dd1ac38bfa7468a4a11a08a17dda2912fd47cb92cbfd8795fe2e8008e155e4
-  languageName: node
-  linkType: hard
-
-"ember-cli-htmlbars@npm:^5.7.1":
-  version: 5.7.2
-  resolution: "ember-cli-htmlbars@npm:5.7.2"
-  dependencies:
-    "@ember/edition-utils": ^1.2.0
-    babel-plugin-htmlbars-inline-precompile: ^5.0.0
-    broccoli-debug: ^0.6.5
-    broccoli-persistent-filter: ^3.1.2
-    broccoli-plugin: ^4.0.3
-    common-tags: ^1.8.0
-    ember-cli-babel-plugin-helpers: ^1.1.1
-    ember-cli-version-checker: ^5.1.2
-    fs-tree-diff: ^2.0.1
-    hash-for-dep: ^1.5.1
-    heimdalljs-logger: ^0.1.10
-    json-stable-stringify: ^1.0.1
-    semver: ^7.3.4
-    silent-error: ^1.1.1
-    strip-bom: ^4.0.0
-    walk-sync: ^2.2.0
-  checksum: 57cfba7311969f2f6ae463cb7be153b10d1384469e7e61fc645bf6eca5c8bb7dbdf42cab757adf05299971b426a19ad6cc3f045d2cbf72304405eb93cc1af998
   languageName: node
   linkType: hard
 
@@ -13009,13 +12985,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-bom@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "strip-bom@npm:4.0.0"
-  checksum: 9dbcfbaf503c57c06af15fe2c8176fb1bf3af5ff65003851a102749f875a6dbe0ab3b30115eccf6e805e9d756830d3e40ec508b62b3f1ddf3761a20ebe29d3f3
-  languageName: node
-  linkType: hard
-
 "strip-eof@npm:^1.0.0":
   version: 1.0.0
   resolution: "strip-eof@npm:1.0.0"
@@ -13072,7 +13041,7 @@ __metadata:
     "@babel/core": ^7.20.5
     "@babel/eslint-parser": ^7.19.1
     "@ember/optional-features": ^2.0.0
-    "@ember/test-helpers": ^2.8.1
+    "@ember/test-helpers": ^2.9.0
     "@glimmer/component": ^1.1.2
     "@glimmer/tracking": ^1.1.2
     "@tsconfig/ember": latest
