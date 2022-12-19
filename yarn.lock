@@ -1806,9 +1806,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember/test-helpers@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@ember/test-helpers@npm:2.9.0"
+"@ember/test-helpers@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "@ember/test-helpers@npm:2.9.1"
   dependencies:
     "@ember/test-waiters": ^3.0.0
     "@embroider/macros": ^1.10.0
@@ -1820,7 +1820,7 @@ __metadata:
     ember-destroyable-polyfill: ^2.0.3
   peerDependencies:
     ember-source: ">=3.8.0"
-  checksum: 70b8b1879715e748b6a658d82ffcb90c5c88641ed961c08f9405bfc2ab1e00b0ccf3df6220044399e2788dc3919cd0db3ae58d153568df72f59398847054f9c3
+  checksum: be0f147f97d7d707fb3b8fc23a88a3ad5a7d5607c8445333ad2a845ce1bd09764de5eb87083d66e771d6e11a9e4fd621cb0d6de57e733028bfa6fc6de4d08bee
   languageName: node
   linkType: hard
 
@@ -13061,7 +13061,7 @@ __metadata:
     "@babel/core": ^7.20.5
     "@babel/eslint-parser": ^7.19.1
     "@ember/optional-features": ^2.0.0
-    "@ember/test-helpers": ^2.9.0
+    "@ember/test-helpers": ^2.9.1
     "@glimmer/component": ^1.1.2
     "@glimmer/tracking": ^1.1.2
     "@tsconfig/ember": latest
