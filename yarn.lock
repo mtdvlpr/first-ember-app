@@ -1806,7 +1806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember/test-helpers@npm:^2.9.1":
+"@ember/test-helpers@npm:*, @ember/test-helpers@npm:^2.9.1":
   version: 2.9.1
   resolution: "@ember/test-helpers@npm:2.9.1"
   dependencies:
@@ -2747,8 +2747,8 @@ __metadata:
   linkType: hard
 
 "@types/ember__test-helpers@npm:*":
-  version: 2.8.1
-  resolution: "@types/ember__test-helpers@npm:2.8.1"
+  version: 2.8.3
+  resolution: "@types/ember__test-helpers@npm:2.8.3"
   dependencies:
     "@types/ember-resolver": "*"
     "@types/ember__application": "*"
@@ -2756,21 +2756,16 @@ __metadata:
     "@types/ember__owner": "*"
     "@types/ember__test-helpers": "*"
     "@types/htmlbars-inline-precompile": "*"
-  checksum: 1c7136ebeb999e03a9139b6c6bd33e3c69526dab4995439609e8304c5e21633cf4a28dca31305a88698ed0e66318a053c37f34d29812450a9580b8d9257f84c3
+  checksum: be95c369c1aa9367d16bb7f8f8e4670b557b98c4228ca7485e7e4a29348f1950413d617ea399d73f391d000439b8a8f02a25d91626c05067f06bda2f7a186722
   languageName: node
   linkType: hard
 
 "@types/ember__test-helpers@npm:latest":
-  version: 2.8.2
-  resolution: "@types/ember__test-helpers@npm:2.8.2"
+  version: 2.9.1
+  resolution: "@types/ember__test-helpers@npm:2.9.1"
   dependencies:
-    "@types/ember-resolver": "*"
-    "@types/ember__application": "*"
-    "@types/ember__error": "*"
-    "@types/ember__owner": "*"
-    "@types/ember__test-helpers": "*"
-    "@types/htmlbars-inline-precompile": "*"
-  checksum: 8f89692d1808133b98e225b48ca5e3d94a781d539f092529f18ff525f898e914b3de6393fe7ed97567b5a04ca1fea6325325fd3e54a03b97c14c9ae4e8ee033b
+    "@ember/test-helpers": "*"
+  checksum: cdba1e3a92b501e6564a6a359e0b1b3f10f8e54faabe5a5faf4d16cde4cf84e4621869efed2e128dae416d560ce81db46cb322bcc72b35ee4b3362c6111eb9fa
   languageName: node
   linkType: hard
 
