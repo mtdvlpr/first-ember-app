@@ -2189,7 +2189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:1.4.14, @jridgewell/sourcemap-codec@npm:^1.4.10":
+"@jridgewell/sourcemap-codec@npm:1.4.14, @jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
   version: 1.4.14
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.14"
   checksum: 61100637b6d173d3ba786a5dff019e1a74b1f394f323c1fee337ff390239f053b87266c7a948777f4b1ee68c01a8ad0ab61e5ff4abb5a012a0b091bec391ab97
@@ -6917,9 +6917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^11.2.1":
-  version: 11.2.1
-  resolution: "eslint-plugin-ember@npm:11.2.1"
+"eslint-plugin-ember@npm:^11.3.0":
+  version: 11.3.0
+  resolution: "eslint-plugin-ember@npm:11.3.0"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
     "@glimmer/syntax": ^0.84.2
@@ -6929,12 +6929,12 @@ __metadata:
     eslint-utils: ^3.0.0
     estraverse: ^5.2.0
     lodash.kebabcase: ^4.1.1
-    magic-string: ^0.26.7
+    magic-string: ^0.27.0
     requireindex: ^1.2.0
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 7"
-  checksum: d184fbf77bd1285ddb0f4b56e3fe05d3c8e22d4c95f0af4059e0fd535b3889763fec5af280eda5f1150d1c325a43666119e1d163859bc5c9f920ae8e58fb7551
+  checksum: 6301a90195964762b1c5c8fb95a54cc9854d341a3551748e2a69faf719366f15c0bfcdd0f68c075620377248b3ac582cadcc54ad57774a306710d4f6fd974077
   languageName: node
   linkType: hard
 
@@ -9999,12 +9999,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.26.0, magic-string@npm:^0.26.7":
+"magic-string@npm:^0.26.0":
   version: 0.26.7
   resolution: "magic-string@npm:0.26.7"
   dependencies:
     sourcemap-codec: ^1.4.8
   checksum: 89b0d60cbb32bbf3d1e23c46ea93db082d18a8230b972027aecb10a40bba51be519ecce0674f995571e3affe917b76b09f59d8dbc9a1b2c9c4102a2b6e8a2b01
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "magic-string@npm:0.27.0"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.13
+  checksum: 273faaa50baadb7a2df6e442eac34ad611304fc08fe16e24fe2e472fd944bfcb73ffb50d2dc972dc04e92784222002af46868cb9698b1be181c81830fd95a13e
   languageName: node
   linkType: hard
 
@@ -13114,7 +13123,7 @@ __metadata:
     ember-welcome-page: ^6.2.0
     eslint: ^8.30.0
     eslint-config-prettier: ^8.5.0
-    eslint-plugin-ember: ^11.2.1
+    eslint-plugin-ember: ^11.3.0
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-qunit: ^7.3.4
