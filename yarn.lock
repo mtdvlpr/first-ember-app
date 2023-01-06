@@ -6653,17 +6653,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-resolver@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "ember-resolver@npm:8.1.0"
+"ember-resolver@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "ember-resolver@npm:9.0.1"
   dependencies:
-    babel-plugin-debug-macros: ^0.3.4
-    broccoli-funnel: ^3.0.8
-    broccoli-merge-trees: ^4.2.0
-    ember-cli-babel: ^7.26.6
-    ember-cli-version-checker: ^5.1.2
-    resolve: ^1.20.0
-  checksum: 8ec5845d721c52666be4f0ab3685ada5a89c964815e0fa211e0213ed7eef71f93658b0c089b00478bc658436692d064a27db2ecfc463e682b6aaf5093ba68dc0
+    ember-cli-babel: ^7.26.11
+  peerDependencies:
+    ember-source: ^4.8.3
+  peerDependenciesMeta:
+    ember-source:
+      optional: true
+  checksum: 20586d8b3c694ef699f305b31281c52681e77216ab2eb4445dd069504b0886c785744950065117f26f9f1abbb8b4f56606eb1b3bc16fd3ba567ed8af3f46fcb7
   languageName: node
   linkType: hard
 
@@ -13291,7 +13291,7 @@ __metadata:
     ember-load-initializers: ^2.1.2
     ember-page-title: ^7.0.0
     ember-qunit: ^6.1.0
-    ember-resolver: ^8.1.0
+    ember-resolver: ^9.0.1
     ember-source: ~4.9.3
     ember-template-lint: ^5.3.1
     ember-welcome-page: ^6.2.0
