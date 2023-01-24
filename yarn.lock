@@ -2600,15 +2600,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember-qunit@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "@types/ember-qunit@npm:5.0.2"
+"@types/ember-qunit@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@types/ember-qunit@npm:6.1.1"
   dependencies:
-    "@types/ember-resolver": "*"
-    "@types/ember__test": "*"
-    "@types/ember__test-helpers": "*"
-    "@types/qunit": "*"
-  checksum: f7c6e9e5721e0708e7290e68e2f14b55baa4dd5d27fd3bb760dc380e92aa03d3b7b93da090d40e34d47d85e6d4451a73e7a7f4398708047164bb10e46da60ad2
+    ember-qunit: "*"
+  checksum: 8dbc88cbf2feb2a5e33dd9e45b5c86b027ac6be9d2422c9eec1bcc3a8a8758137f8bd58c69c767ddae5af46f8811e46448748fb737e8ea77aa5b2f91d1ced61c
   languageName: node
   linkType: hard
 
@@ -2894,20 +2891,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__test-helpers@npm:*":
-  version: 2.8.3
-  resolution: "@types/ember__test-helpers@npm:2.8.3"
-  dependencies:
-    "@types/ember-resolver": "*"
-    "@types/ember__application": "*"
-    "@types/ember__error": "*"
-    "@types/ember__owner": "*"
-    "@types/ember__test-helpers": "*"
-    "@types/htmlbars-inline-precompile": "*"
-  checksum: be95c369c1aa9367d16bb7f8f8e4670b557b98c4228ca7485e7e4a29348f1950413d617ea399d73f391d000439b8a8f02a25d91626c05067f06bda2f7a186722
-  languageName: node
-  linkType: hard
-
 "@types/ember__test-helpers@npm:latest":
   version: 2.9.1
   resolution: "@types/ember__test-helpers@npm:2.9.1"
@@ -3114,7 +3097,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/qunit@npm:*, @types/qunit@npm:latest":
+"@types/qunit@npm:latest":
   version: 2.19.4
   resolution: "@types/qunit@npm:2.19.4"
   checksum: 6fe5e35a5f2f33819324d0b0765d9d1c7517e09c5cb8576ce1e83791e35cf8a3d2be77ea6c6d2dcf7a27c1abe9bf38e34dcc8922c9e94856af61e1e842da9d0e
@@ -6644,9 +6627,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-qunit@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "ember-qunit@npm:6.1.0"
+"ember-qunit@npm:*, ember-qunit@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "ember-qunit@npm:6.1.1"
   dependencies:
     broccoli-funnel: ^3.0.8
     broccoli-merge-trees: ^3.0.2
@@ -6658,29 +6641,9 @@ __metadata:
     silent-error: ^1.1.1
     validate-peer-dependencies: ^2.1.0
   peerDependencies:
-    "@ember/test-helpers": ^2.4.0
-    "@glimmer/interfaces": ^0.84.2
-    "@glimmer/reference": ^0.84.2
-    "@types/ember-resolver": ^5.0.13
-    "@types/ember__test": ^4.0.1
-    "@types/ember__test-helpers": ^2.8.2
-    "@types/rsvp": ^4.0.4
     ember-source: ^3.28 || ^4.0
     qunit: ^2.13.0
-  peerDependenciesMeta:
-    "@glimmer/interfaces":
-      optional: true
-    "@glimmer/reference":
-      optional: true
-    "@types/ember-resolver":
-      optional: true
-    "@types/ember__test":
-      optional: true
-    "@types/ember__test-helpers":
-      optional: true
-    "@types/rsvp":
-      optional: true
-  checksum: e8be8fbe1bea8207582fc7372f0d2bcc3fd859a415d5e85c79fdcc587c5cd3d50317e6eb9428356df285d5344156f982c6cb2d6b0682fc0e7145ce598cfbafd3
+  checksum: c663cf9fa4c7923c4f0f07ff04409d701519bbcd7ab94f60752342a572f416703dc28898b6a80b3be0f36e39821988416892dc0e8e15f71933443fabffa7b2b8
   languageName: node
   linkType: hard
 
@@ -13280,7 +13243,7 @@ __metadata:
     "@types/ember-data__model": latest
     "@types/ember-data__serializer": latest
     "@types/ember-data__store": latest
-    "@types/ember-qunit": ^5.0.2
+    "@types/ember-qunit": ^6.1.1
     "@types/ember-resolver": latest
     "@types/ember__application": latest
     "@types/ember__array": latest
@@ -13321,7 +13284,7 @@ __metadata:
     ember-fetch: ^8.1.2
     ember-load-initializers: ^2.1.2
     ember-page-title: ^7.0.0
-    ember-qunit: ^6.1.0
+    ember-qunit: ^6.1.1
     ember-resolver: ^8.1.0
     ember-source: ~4.10.0
     ember-template-lint: ^5.3.2
