@@ -28,7 +28,7 @@ module('Integration | Component | share-button', function (hooks) {
     this.tweetParam = (param) => {
       const link = find('a')
       if (!link) return null
-      const url = new URL(link.href)
+      const url = new URL(link.href as string)
       return url.searchParams.get(param)
     }
   })
