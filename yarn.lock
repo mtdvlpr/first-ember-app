@@ -5983,9 +5983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-auto-import@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "ember-auto-import@npm:2.5.0"
+"ember-auto-import@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "ember-auto-import@npm:2.6.0"
   dependencies:
     "@babel/core": ^7.16.7
     "@babel/plugin-proposal-class-properties": ^7.16.7
@@ -6017,7 +6017,7 @@ __metadata:
     style-loader: ^2.0.0
     typescript-memoize: ^1.0.0-alpha.3
     walk-sync: ^3.0.0
-  checksum: e9ebb9b6c078bdf0cb92dd68db5dbd15337219003256cf525dd948cd10054aea7f14aa2c4e26b3df369ff2cdc354969666920a2aca7113e92d0e1d2789711c6c
+  checksum: 9f0b2a381121ffc769868231f2e4bc9380ab96010dfbea60037d2c540e5d43e5c27a9931972ce9ddd53afbe3bfa77099dc521fb09b2269545910e783654b52c0
   languageName: node
   linkType: hard
 
@@ -13268,7 +13268,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.49.0
     broccoli-asset-rev: ^3.0.0
     core-js: 3.27.2
-    ember-auto-import: ^2.5.0
+    ember-auto-import: ^2.6.0
     ember-cli: ~4.10.0
     ember-cli-app-version: ^5.0.0
     ember-cli-babel: ^7.26.11
