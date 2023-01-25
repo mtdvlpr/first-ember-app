@@ -2540,27 +2540,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember-data@npm:*":
-  version: 4.4.4
-  resolution: "@types/ember-data@npm:4.4.4"
+"@types/ember-data@npm:*, @types/ember-data@npm:latest":
+  version: 4.4.7
+  resolution: "@types/ember-data@npm:4.4.7"
   dependencies:
     "@types/ember": "*"
     "@types/ember__error": "*"
     "@types/ember__object": "*"
     "@types/rsvp": "*"
-  checksum: 0b6760b4bbefe28e2f9a2db4e2a7df1ab8a4112486400e5d842959f4abd616be4da0301523e68e3fc449c4a12153958028c617c83152360f922654f48a3ffda0
-  languageName: node
-  linkType: hard
-
-"@types/ember-data@npm:latest":
-  version: 4.4.6
-  resolution: "@types/ember-data@npm:4.4.6"
-  dependencies:
-    "@types/ember": "*"
-    "@types/ember__error": "*"
-    "@types/ember__object": "*"
-    "@types/rsvp": "*"
-  checksum: 641f43f5c82aab651ef00555ffe07cdf8c1e0ac581ade582479e48b3e89a258efbf083391b20b723c239eadac0418b1eb4c3ce14ec9a61477ac33f758379fae7
+  checksum: 27a451bd38de867c7910b978273154fae56412c8916a3010b31520444e08e65d08d3845f83220015a4470e4682c9c80319f7608397bb5063dc55d18ab74ad4cf
   languageName: node
   linkType: hard
 
