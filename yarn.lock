@@ -2598,21 +2598,21 @@ __metadata:
   linkType: hard
 
 "@types/ember-resolver@npm:*":
-  version: 5.0.11
-  resolution: "@types/ember-resolver@npm:5.0.11"
-  dependencies:
-    "@types/ember__object": "*"
-  checksum: e847adff01bab2a8943a0be79cb5337c49f4c13efb66e7b5549fa4385162619a2a52493dabb0918ebf38eda6cf8b95fc9a5741eb9f6b823b64d29e140b38a787
-  languageName: node
-  linkType: hard
-
-"@types/ember-resolver@npm:latest":
   version: 5.0.13
   resolution: "@types/ember-resolver@npm:5.0.13"
   dependencies:
     "@types/ember__object": "*"
     "@types/ember__owner": "*"
   checksum: 3ece114d8368768d8198e3156b2df51b4be9d4f9ab8d60f2a1cb63a301b48ec485f51f5ddc8ad9b6f4d3739d252107463ff2508bec559efb7d8593e4975e3f48
+  languageName: node
+  linkType: hard
+
+"@types/ember-resolver@npm:latest":
+  version: 9.0.0
+  resolution: "@types/ember-resolver@npm:9.0.0"
+  dependencies:
+    ember-resolver: "*"
+  checksum: 0d88b7794d1f8fda904858a1161f375b2652379eeb60d8de7b3dd8962eb4617b4bebfe130299bf71f54c5c3acf1343e31131589eaf798c2059f5b52fa1fc0187
   languageName: node
   linkType: hard
 
@@ -6638,7 +6638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-resolver@npm:^10.0.0":
+"ember-resolver@npm:*, ember-resolver@npm:^10.0.0":
   version: 10.0.0
   resolution: "ember-resolver@npm:10.0.0"
   dependencies:
