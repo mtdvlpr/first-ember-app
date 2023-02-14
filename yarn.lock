@@ -2004,13 +2004,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@embroider/addon-shim@npm:^1.5.0":
-  version: 1.8.3
-  resolution: "@embroider/addon-shim@npm:1.8.3"
+"@embroider/addon-shim@npm:^1.8.4":
+  version: 1.8.4
+  resolution: "@embroider/addon-shim@npm:1.8.4"
   dependencies:
-    "@embroider/shared-internals": ^1.8.3
-    semver: ^7.3.5
-  checksum: 11dfdb956631179656727599eb6d6223369f6a04f0e28ac04b793064338c577a89a77c59254a4a665acc46e174cf87196d0f335ab8049be7fe8a2c71ef695974
+    "@embroider/shared-internals": ^2.0.0
+    broccoli-funnel: ^3.0.8
+    semver: ^7.3.8
+  checksum: 107220e97bbd46ead81dfbbfc6cf7daa61731096a6e81b989659a9a0b29b48b3c97ebdd446b6dc0636c4be369f3744e514b7f5e5c0fdc54c1c0e026f54404cc2
   languageName: node
   linkType: hard
 
@@ -2046,7 +2047,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@embroider/shared-internals@npm:1.8.3, @embroider/shared-internals@npm:^1.0.0, @embroider/shared-internals@npm:^1.8.3":
+"@embroider/shared-internals@npm:1.8.3, @embroider/shared-internals@npm:^1.0.0":
   version: 1.8.3
   resolution: "@embroider/shared-internals@npm:1.8.3"
   dependencies:
@@ -6829,12 +6830,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-welcome-page@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "ember-welcome-page@npm:6.2.0"
+"ember-welcome-page@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "ember-welcome-page@npm:7.0.1"
   dependencies:
-    "@embroider/addon-shim": ^1.5.0
-  checksum: 0f60f3f6c8a1d908539f9d01ab370634d74e9a46e6efa77b416634f84417c01ed5ae4fce16825a70fc64292853a7b4e990ae1c5153a41babc366298910b87a93
+    "@embroider/addon-shim": ^1.8.4
+    "@glimmer/component": ^1.1.2
+  checksum: 9ffad1571489c045209fb70c8f2ac3c6fa79e696b841657bb91f94dbe1c0d63d303e7ce959bb8356b6ec1bb2e6e39ad1cb0f4365b8c040d1b84ba0075aec069d
   languageName: node
   linkType: hard
 
@@ -13304,7 +13306,7 @@ __metadata:
     ember-resolver: ^10.0.0
     ember-source: ~4.10.0
     ember-template-lint: ^5.5.1
-    ember-welcome-page: ^6.2.0
+    ember-welcome-page: ^7.0.1
     eslint: ^8.34.0
     eslint-config-prettier: ^8.6.0
     eslint-plugin-ember: ^11.4.6
