@@ -1029,7 +1029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-block-scoping@npm:^7.16.0, @babel/plugin-transform-block-scoping@npm:^7.19.4":
+"@babel/plugin-transform-block-scoping@npm:^7.19.4":
   version: 7.19.4
   resolution: "@babel/plugin-transform-block-scoping@npm:7.19.4"
   dependencies:
@@ -1048,6 +1048,17 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 03606bc6710c15cd4e4d1163e1cbab08799f852a5dd55a1f7e115032e9406ac9430ddc0cb6d09a51a4095446985640411f60683c6fcea9bc1a7b202462022e1c
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-block-scoping@npm:^7.20.5":
+  version: 7.21.0
+  resolution: "@babel/plugin-transform-block-scoping@npm:7.21.0"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.20.2
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 15aacaadbecf96b53a750db1be4990b0d89c7f5bc3e1794b63b49fb219638c1fd25d452d15566d7e5ddf5b5f4e1a0a0055c35c1c7aee323c7b114bf49f66f4b0
   languageName: node
   linkType: hard
 
@@ -5935,7 +5946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-auto-import@npm:^2.4.1, ember-auto-import@npm:^2.4.3":
+"ember-auto-import@npm:^2.4.3":
   version: 2.4.3
   resolution: "ember-auto-import@npm:2.4.3"
   dependencies:
@@ -5973,7 +5984,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-auto-import@npm:^2.6.0":
+"ember-auto-import@npm:^2.5.0, ember-auto-import@npm:^2.6.0":
   version: 2.6.0
   resolution: "ember-auto-import@npm:2.6.0"
   dependencies:
@@ -6683,12 +6694,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-source@npm:~4.10.0":
-  version: 4.10.0
-  resolution: "ember-source@npm:4.10.0"
+"ember-source@npm:~4.11.0":
+  version: 4.11.0
+  resolution: "ember-source@npm:4.11.0"
   dependencies:
     "@babel/helper-module-imports": ^7.16.7
-    "@babel/plugin-transform-block-scoping": ^7.16.0
+    "@babel/plugin-transform-block-scoping": ^7.20.5
     "@ember/edition-utils": ^1.2.0
     "@glimmer/vm-babel-plugins": 0.84.2
     babel-plugin-debug-macros: ^0.3.4
@@ -6699,7 +6710,7 @@ __metadata:
     broccoli-funnel: ^3.0.8
     broccoli-merge-trees: ^4.2.0
     chalk: ^4.0.0
-    ember-auto-import: ^2.4.1
+    ember-auto-import: ^2.5.0
     ember-cli-babel: ^7.26.11
     ember-cli-get-component-path-option: ^1.0.0
     ember-cli-is-package-missing: ^1.0.0
@@ -6715,7 +6726,7 @@ __metadata:
     silent-error: ^1.1.1
   peerDependencies:
     "@glimmer/component": ^1.1.2
-  checksum: 7c721499b4ed156cc145a5b8fcd6bd9e3257ada3fe34ca498bb7062d3200562b87e69ae7c45732dfb7eb05c5be51085a79cf00bbc8f87e5ce2a5bfc16457e8e3
+  checksum: 1e65988d576b1123c1a3fcaef59ab8f5652beaeb0b1e58f99d8e2aa9463cd110bfa5841d796c54f21aff980a79fd7641fcbd12d14b14ce408295f2da19b60348
   languageName: node
   linkType: hard
 
@@ -13259,7 +13270,7 @@ __metadata:
     ember-page-title: ^7.0.0
     ember-qunit: ^6.1.1
     ember-resolver: ^10.0.0
-    ember-source: ~4.10.0
+    ember-source: ~4.11.0
     ember-template-lint: ^5.5.1
     ember-welcome-page: ^7.0.1
     eslint: ^8.34.0
