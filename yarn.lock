@@ -2663,14 +2663,14 @@ __metadata:
   linkType: hard
 
 "@types/ember-data@npm:*, @types/ember-data@npm:latest":
-  version: 4.4.7
-  resolution: "@types/ember-data@npm:4.4.7"
+  version: 4.4.8
+  resolution: "@types/ember-data@npm:4.4.8"
   dependencies:
     "@types/ember": "*"
     "@types/ember__error": "*"
     "@types/ember__object": "*"
     "@types/rsvp": "*"
-  checksum: 27a451bd38de867c7910b978273154fae56412c8916a3010b31520444e08e65d08d3845f83220015a4470e4682c9c80319f7608397bb5063dc55d18ab74ad4cf
+  checksum: 3d61c6a402edf7eaec8957e9077af3a2a21ce467dd8fd1dd61d4fdcbc4394d25db239b3d8ab3bb01d3b9e3397e74d955b2c8cd67184ff199af092bc6eaf28283
   languageName: node
   linkType: hard
 
