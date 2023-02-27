@@ -5289,10 +5289,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.5.0, ci-info@npm:^3.7.1":
+"ci-info@npm:^3.5.0":
   version: 3.7.1
   resolution: "ci-info@npm:3.7.1"
   checksum: 72d93d5101ea1c186511277fbd8d06ae8a6e028cc2fb94361e92bf735b39c5ebd192e8d15a66ff8c4e3ed569f87c2f844e96f90e141b2de5c649f77ec34ff601
+  languageName: node
+  linkType: hard
+
+"ci-info@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "ci-info@npm:3.8.0"
+  checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
   languageName: node
   linkType: hard
 
@@ -6895,14 +6902,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^5.5.1":
-  version: 5.5.1
-  resolution: "ember-template-lint@npm:5.5.1"
+"ember-template-lint@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "ember-template-lint@npm:5.6.0"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
     chalk: ^5.2.0
-    ci-info: ^3.7.1
+    ci-info: ^3.8.0
     date-fns: ^2.29.2
     ember-template-imports: ^3.4.1
     ember-template-recast: ^6.1.3
@@ -6912,14 +6919,14 @@ __metadata:
     get-stdin: ^9.0.0
     globby: ^13.1.3
     is-glob: ^4.0.3
-    language-tags: ^1.0.7
+    language-tags: ^1.0.8
     micromatch: ^4.0.5
     resolve: ^1.22.1
     v8-compile-cache: ^2.3.0
-    yargs: ^17.5.1
+    yargs: ^17.7.0
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: de273568e084413f20b951956d61b8a2b57b5a8fb318c72713cd7d23f6352850c1d25ec79a15bb0796844c89c05031c7bd1a8cc5d794feaa09a0ae1d649d6d3a
+  checksum: 839a4d819bfa386a2e35888482d4ba4d8d78a5c2158e6b72e79b947f2db590a4426b59e216afb1b97391103fb542223b6d036f7c4bc5145dbe55719325b7f6ef
   languageName: node
   linkType: hard
 
@@ -9811,12 +9818,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"language-tags@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "language-tags@npm:1.0.7"
+"language-tags@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "language-tags@npm:1.0.8"
   dependencies:
     language-subtag-registry: ^0.3.20
-  checksum: 2f1ca8ffe4e549893817456ca1974dbff0f3cc8aea4e123e666dc6df85f3cf2d828b8143084388a7e2bec15fac77b7194151e43b5b32e63526dafe17a08a9fd0
+  checksum: 95d200a4c23ae58ec1c2224e264162ca95e71b3a1104a9cf9d2fd39ab807fa766b37827905a44c84763accc8223aedccebd4cd7807c16876cbe2af769e7a487b
   languageName: node
   linkType: hard
 
@@ -13419,7 +13426,7 @@ __metadata:
     ember-qunit: ^6.1.1
     ember-resolver: ^10.0.0
     ember-source: ~4.11.0
-    ember-template-lint: ^5.5.1
+    ember-template-lint: ^5.6.0
     ember-welcome-page: ^7.0.1
     eslint: ^8.34.0
     eslint-config-prettier: ^8.6.0
@@ -14565,16 +14572,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^21.0.0":
+"yargs-parser@npm:^21.1.1":
   version: 21.1.1
   resolution: "yargs-parser@npm:21.1.1"
   checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.5.1":
-  version: 17.6.0
-  resolution: "yargs@npm:17.6.0"
+"yargs@npm:^17.7.0":
+  version: 17.7.1
+  resolution: "yargs@npm:17.7.1"
   dependencies:
     cliui: ^8.0.1
     escalade: ^3.1.1
@@ -14582,8 +14589,8 @@ __metadata:
     require-directory: ^2.1.1
     string-width: ^4.2.3
     y18n: ^5.0.5
-    yargs-parser: ^21.0.0
-  checksum: 604bdb4a6395a870540d2f3fea083c8e28441f12da8fd05b172b1e68480f00ed73d76be4a05fac19de9bf55ec7729b41e81cf555cccaed700aa192e4fff64872
+    yargs-parser: ^21.1.1
+  checksum: 3d8a43c336a4942bc68080768664aca85c7bd406f018bad362fd255c41c8f4e650277f42fd65d543fce99e084124ddafee7bbfc1a5c6a8fda4cec78609dcf8d4
   languageName: node
   linkType: hard
 
