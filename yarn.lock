@@ -7218,9 +7218,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^11.4.6":
-  version: 11.4.6
-  resolution: "eslint-plugin-ember@npm:11.4.6"
+"eslint-plugin-ember@npm:^11.4.7":
+  version: 11.4.7
+  resolution: "eslint-plugin-ember@npm:11.4.7"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
     "@glimmer/syntax": ^0.84.2
@@ -7231,12 +7231,12 @@ __metadata:
     estraverse: ^5.2.0
     lodash.camelcase: ^4.1.1
     lodash.kebabcase: ^4.1.1
-    magic-string: ^0.27.0
+    magic-string: ^0.30.0
     requireindex: ^1.2.0
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 7"
-  checksum: 9645631012b22ba40cf7c310ac31287bfefec061bc848e3591015ed3ca26c00176eea01d67336d53bc464a6316b50bfc4dc30167c14fbcabbc0a25b819e6da7e
+  checksum: abe2934a704d6157f02a7e61b62d26c78f68824906420ba6490f051d8a6ff1af6f36a80fdbb61babdd968ee96a10cfd96343745ed2cd06e948b502cd2286ffeb
   languageName: node
   linkType: hard
 
@@ -10336,12 +10336,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "magic-string@npm:0.27.0"
+"magic-string@npm:^0.30.0":
+  version: 0.30.0
+  resolution: "magic-string@npm:0.30.0"
   dependencies:
     "@jridgewell/sourcemap-codec": ^1.4.13
-  checksum: 273faaa50baadb7a2df6e442eac34ad611304fc08fe16e24fe2e472fd944bfcb73ffb50d2dc972dc04e92784222002af46868cb9698b1be181c81830fd95a13e
+  checksum: 7bdf22e27334d8a393858a16f5f840af63a7c05848c000fd714da5aa5eefa09a1bc01d8469362f25cc5c4a14ec01b46557b7fff8751365522acddf21e57c488d
   languageName: node
   linkType: hard
 
@@ -13451,7 +13451,7 @@ __metadata:
     ember-welcome-page: ^7.0.1
     eslint: ^8.35.0
     eslint-config-prettier: ^8.6.0
-    eslint-plugin-ember: ^11.4.6
+    eslint-plugin-ember: ^11.4.7
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-qunit: ^7.3.4
