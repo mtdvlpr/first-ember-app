@@ -6982,6 +6982,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ember-template-imports@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "ember-template-imports@npm:3.4.2"
+  dependencies:
+    babel-import-util: ^0.2.0
+    broccoli-stew: ^3.0.0
+    ember-cli-babel-plugin-helpers: ^1.1.1
+    ember-cli-version-checker: ^5.1.2
+    line-column: ^1.0.2
+    magic-string: ^0.25.7
+    parse-static-imports: ^1.1.0
+    string.prototype.matchall: ^4.0.6
+    validate-peer-dependencies: ^1.1.0
+  checksum: de7a3d455a3174f681d99d1467c6bbb9f6a00e130932106cfd9be7e04476d2e26c5151fa0ed4ba7084ef2b82863bb5d390a0340b108935e8d5f0c5a6215a9b49
+  languageName: node
+  linkType: hard
+
 "ember-template-lint@npm:^5.7.2":
   version: 5.7.2
   resolution: "ember-template-lint@npm:5.7.2"
@@ -7271,15 +7288,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^11.4.8":
-  version: 11.4.8
-  resolution: "eslint-plugin-ember@npm:11.4.8"
+"eslint-plugin-ember@npm:^11.4.9":
+  version: 11.4.9
+  resolution: "eslint-plugin-ember@npm:11.4.9"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
     "@glimmer/syntax": ^0.84.2
     css-tree: ^2.0.4
     ember-rfc176-data: ^0.3.15
-    ember-template-imports: ^3.4.1
+    ember-template-imports: ^3.4.2
     eslint-utils: ^3.0.0
     estraverse: ^5.2.0
     lodash.camelcase: ^4.1.1
@@ -7289,7 +7306,7 @@ __metadata:
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 7"
-  checksum: 4b781c8f877ca15bb6c67c950ba3e324a8624ff82aa142ca70022813a37693df186f28c5f66e5e658045e28933e587eae41785223fce10179616616dbd744500
+  checksum: c67d3ada28622850d81bc529cf3cfd7dad9711560e29f2c6a0c0721a95ef5b8b2735a1c84c1dfe18a61f797bc25a106cd80e5c782bb5f2e2eb63dbcb71cebf29
   languageName: node
   linkType: hard
 
@@ -13495,7 +13512,7 @@ __metadata:
     ember-welcome-page: ^7.0.1
     eslint: ^8.37.0
     eslint-config-prettier: ^8.8.0
-    eslint-plugin-ember: ^11.4.8
+    eslint-plugin-ember: ^11.4.9
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-qunit: ^7.3.4
