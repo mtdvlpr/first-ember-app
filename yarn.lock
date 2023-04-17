@@ -6576,9 +6576,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-cli@npm:~4.12.0":
-  version: 4.12.0
-  resolution: "ember-cli@npm:4.12.0"
+"ember-cli@npm:~4.12.1":
+  version: 4.12.1
+  resolution: "ember-cli@npm:4.12.1"
   dependencies:
     "@babel/core": ^7.21.0
     "@babel/plugin-transform-modules-amd": ^7.20.11
@@ -6675,7 +6675,7 @@ __metadata:
     yam: ^1.0.0
   bin:
     ember: bin/ember
-  checksum: 8070bc1a4c369a86b4fba2f9465a5a8b8e53825022031207d89240590465cce4a5a495fd1a1963d921fb711b40c5d15cb47011a3d9e41954ac674877edf778ac
+  checksum: 3e6066637211d98994b44b85b33070cc4614f6f1500eebfdc64886880300602a49220b788c4359548d6f305c47844b18ef5bbe0b64d4d61d6865811a15a712b0
   languageName: node
   linkType: hard
 
@@ -13494,7 +13494,7 @@ __metadata:
     broccoli-asset-rev: ^3.0.0
     core-js: 3.30.1
     ember-auto-import: ^2.6.3
-    ember-cli: ~4.12.0
+    ember-cli: ~4.12.1
     ember-cli-app-version: ^6.0.0
     ember-cli-babel: ^7.26.11
     ember-cli-dependency-checker: ^3.3.1
