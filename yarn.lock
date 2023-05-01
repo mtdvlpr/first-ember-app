@@ -3160,9 +3160,9 @@ __metadata:
   linkType: hard
 
 "@types/qunit@npm:latest":
-  version: 2.19.4
-  resolution: "@types/qunit@npm:2.19.4"
-  checksum: 6fe5e35a5f2f33819324d0b0765d9d1c7517e09c5cb8576ce1e83791e35cf8a3d2be77ea6c6d2dcf7a27c1abe9bf38e34dcc8922c9e94856af61e1e842da9d0e
+  version: 2.19.5
+  resolution: "@types/qunit@npm:2.19.5"
+  checksum: 40a4dc725988849571173f014feef6889ea308ca57f46a057435f23a1a0fffc9f4d8f19083628e87b4e328a86cc6df65b6865061aed2673c73944850138aff5e
   languageName: node
   linkType: hard
 
