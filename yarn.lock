@@ -6891,23 +6891,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-imports@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "ember-template-imports@npm:3.4.1"
-  dependencies:
-    babel-import-util: ^0.2.0
-    broccoli-stew: ^3.0.0
-    ember-cli-babel-plugin-helpers: ^1.1.1
-    ember-cli-version-checker: ^5.1.2
-    line-column: ^1.0.2
-    magic-string: ^0.25.7
-    parse-static-imports: ^1.1.0
-    string.prototype.matchall: ^4.0.6
-    validate-peer-dependencies: ^1.1.0
-  checksum: 02c2a9c95e092b034411fea9329df410e8565c5c6707a1e14513a97a21367844a25fb357cdb222f14de1c8b59f1e0edef7ed55b82371c91edbe8a9a402509e69
-  languageName: node
-  linkType: hard
-
 "ember-template-imports@npm:^3.4.2":
   version: 3.4.2
   resolution: "ember-template-imports@npm:3.4.2"
@@ -6925,31 +6908,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^5.7.2":
-  version: 5.7.2
-  resolution: "ember-template-lint@npm:5.7.2"
+"ember-template-lint@npm:^5.7.3":
+  version: 5.7.3
+  resolution: "ember-template-lint@npm:5.7.3"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
     chalk: ^5.2.0
     ci-info: ^3.8.0
     date-fns: ^2.29.2
-    ember-template-imports: ^3.4.1
+    ember-template-imports: ^3.4.2
     ember-template-recast: ^6.1.4
     eslint-formatter-kakoune: ^1.0.0
     find-up: ^6.3.0
     fuse.js: ^6.5.3
     get-stdin: ^9.0.0
-    globby: ^13.1.3
+    globby: ^13.1.4
     is-glob: ^4.0.3
     language-tags: ^1.0.8
     micromatch: ^4.0.5
-    resolve: ^1.22.1
+    resolve: ^1.22.3
     v8-compile-cache: ^2.3.0
     yargs: ^17.7.1
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: 7f3848994cb73b3004ca21e726ad460fc54a6039a12c26b3fd787729211ed3d6ad34a1c30a4c8fb40581a61c0795dfdc5fe0e014369afcdea25f81c21a4e6f98
+  checksum: 6ab8075f808d4190a56c0f335e009adb40b278f46ef127a7f5a974b229c87683bed1ee7b1f6754dcb3b87a205b6129fc76b9dbf72ccc61e04d353320e25523c5
   languageName: node
   linkType: hard
 
@@ -8612,16 +8595,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.1.3":
-  version: 13.1.3
-  resolution: "globby@npm:13.1.3"
+"globby@npm:^13.1.4":
+  version: 13.1.4
+  resolution: "globby@npm:13.1.4"
   dependencies:
     dir-glob: ^3.0.1
     fast-glob: ^3.2.11
     ignore: ^5.2.0
     merge2: ^1.4.1
     slash: ^4.0.0
-  checksum: 93f06e02002cdf368f7e3d55bd59e7b00784c7cc8fe92c7ee5082cc7171ff6109fda45e1c97a80bb48bc811dedaf7843c7c9186f5f84bde4883ab630e13c43df
+  checksum: e8bc13879972082d590cd1b0e27080d90d2e12fff7eeb2cee9329c29115ace14cc5b9f899e3d6beb136ba826307a727016658919a6f383e1511d698acee81741
   languageName: node
   linkType: hard
 
@@ -9260,6 +9243,15 @@ __metadata:
   version: 1.2.7
   resolution: "is-callable@npm:1.2.7"
   checksum: 61fd57d03b0d984e2ed3720fb1c7a897827ea174bd44402878e059542ea8c4aeedee0ea0985998aa5cc2736b2fa6e271c08587addb5b3959ac52cf665173d1ac
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.12.0":
+  version: 2.12.0
+  resolution: "is-core-module@npm:2.12.0"
+  dependencies:
+    has: ^1.0.3
+  checksum: f7f7eb2ab71fd769ee9fb2385c095d503aa4b5ce0028c04557de03f1e67a87c85e5bac1f215945fc3c955867a139a415a3ec4c4234a0bffdf715232660f440a6
   languageName: node
   linkType: hard
 
@@ -12419,6 +12411,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve@npm:^1.22.3":
+  version: 1.22.3
+  resolution: "resolve@npm:1.22.3"
+  dependencies:
+    is-core-module: ^2.12.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: fb834b81348428cb545ff1b828a72ea28feb5a97c026a1cf40aa1008352c72811ff4d4e71f2035273dc536dcfcae20c13604ba6283c612d70fa0b6e44519c374
+  languageName: node
+  linkType: hard
+
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.11.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.4.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.5.0#~builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
@@ -12429,6 +12434,19 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@^1.22.3#~builtin<compat/resolve>":
+  version: 1.22.3
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
+  dependencies:
+    is-core-module: ^2.12.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: ad59734723b596d0891321c951592ed9015a77ce84907f89c9d9307dd0c06e11a67906a3e628c4cae143d3e44898603478af0ddeb2bba3f229a9373efe342665
   languageName: node
   linkType: hard
 
@@ -13523,7 +13541,7 @@ __metadata:
     ember-qunit: ^6.2.0
     ember-resolver: ^10.0.0
     ember-source: ~4.12.0
-    ember-template-lint: ^5.7.2
+    ember-template-lint: ^5.7.3
     ember-welcome-page: ^7.0.1
     eslint: ^8.39.0
     eslint-config-prettier: ^8.8.0
