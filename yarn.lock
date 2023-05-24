@@ -5942,10 +5942,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.29.2":
-  version: 2.29.3
-  resolution: "date-fns@npm:2.29.3"
-  checksum: e01cf5b62af04e05dfff921bb9c9933310ed0e1ae9a81eb8653452e64dc841acf7f6e01e1a5ae5644d0337e9a7f936175fd2cb6819dc122fdd9c5e86c56be484
+"date-fns@npm:^2.30.0":
+  version: 2.30.0
+  resolution: "date-fns@npm:2.30.0"
+  dependencies:
+    "@babel/runtime": ^7.21.0
+  checksum: f7be01523282e9bb06c0cd2693d34f245247a29098527d4420628966a2d9aad154bd0e90a6b1cf66d37adcb769cd108cf8a7bd49d76db0fb119af5cdd13644f4
   languageName: node
   linkType: hard
 
@@ -7086,15 +7088,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-template-lint@npm:^5.7.3":
-  version: 5.7.3
-  resolution: "ember-template-lint@npm:5.7.3"
+"ember-template-lint@npm:^5.8.0":
+  version: 5.8.0
+  resolution: "ember-template-lint@npm:5.8.0"
   dependencies:
     "@lint-todo/utils": ^13.0.3
     aria-query: ^5.0.2
     chalk: ^5.2.0
     ci-info: ^3.8.0
-    date-fns: ^2.29.2
+    date-fns: ^2.30.0
     ember-template-imports: ^3.4.2
     ember-template-recast: ^6.1.4
     eslint-formatter-kakoune: ^1.0.0
@@ -7107,10 +7109,10 @@ __metadata:
     micromatch: ^4.0.5
     resolve: ^1.22.3
     v8-compile-cache: ^2.3.0
-    yargs: ^17.7.1
+    yargs: ^17.7.2
   bin:
     ember-template-lint: bin/ember-template-lint.js
-  checksum: 6ab8075f808d4190a56c0f335e009adb40b278f46ef127a7f5a974b229c87683bed1ee7b1f6754dcb3b87a205b6129fc76b9dbf72ccc61e04d353320e25523c5
+  checksum: 13da11eee04fb794bab5172d3a0d33552cadb66b161a151c3ca158add01c671bbf1b2ea07c4607c176a34620eb9a5f6d59d74ef36999157151bd0576263099f8
   languageName: node
   linkType: hard
 
@@ -13718,7 +13720,7 @@ __metadata:
     ember-qunit: ^6.2.0
     ember-resolver: ^10.1.0
     ember-source: ~4.12.0
-    ember-template-lint: ^5.7.3
+    ember-template-lint: ^5.8.0
     ember-welcome-page: ^7.0.1
     eslint: ^8.41.0
     eslint-config-prettier: ^8.8.0
@@ -14911,9 +14913,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.7.1":
-  version: 17.7.1
-  resolution: "yargs@npm:17.7.1"
+"yargs@npm:^17.7.2":
+  version: 17.7.2
+  resolution: "yargs@npm:17.7.2"
   dependencies:
     cliui: ^8.0.1
     escalade: ^3.1.1
@@ -14922,7 +14924,7 @@ __metadata:
     string-width: ^4.2.3
     y18n: ^5.0.5
     yargs-parser: ^21.1.1
-  checksum: 3d8a43c336a4942bc68080768664aca85c7bd406f018bad362fd255c41c8f4e650277f42fd65d543fce99e084124ddafee7bbfc1a5c6a8fda4cec78609dcf8d4
+  checksum: 73b572e863aa4a8cbef323dd911d79d193b772defd5a51aab0aca2d446655216f5002c42c5306033968193bdbf892a7a4c110b0d77954a7fdf563e653967b56a
   languageName: node
   linkType: hard
 
