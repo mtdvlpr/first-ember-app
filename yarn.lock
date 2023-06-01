@@ -2205,21 +2205,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember/test-helpers@npm:^2.9.3":
-  version: 2.9.3
-  resolution: "@ember/test-helpers@npm:2.9.3"
+"@ember/test-helpers@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@ember/test-helpers@npm:3.0.0"
   dependencies:
-    "@ember/test-waiters": ^3.0.0
+    "@ember/test-waiters": ^3.0.2
     "@embroider/macros": ^1.10.0
-    "@embroider/util": ^1.9.0
     broccoli-debug: ^0.6.5
     broccoli-funnel: ^3.0.8
+    ember-auto-import: ^2.6.0
     ember-cli-babel: ^7.26.11
-    ember-cli-htmlbars: ^6.1.1
-    ember-destroyable-polyfill: ^2.0.3
+    ember-cli-htmlbars: ^6.2.0
   peerDependencies:
-    ember-source: ">=3.8.0"
-  checksum: 4591d33275c6035d41aa95184200074a727cc660aa43e48e9ed63ba07881a12fa332360fe7e5ba3b7a466fd740d92aa9f97e5d3584e95e2337c9b57ee844da69
+    ember-source: ^4.0.0
+  checksum: 35f263b75b487ce7040fd8ddc42d9458dae25401b1311511e914da1a01de73d82d7125cdf39228c67b8b796b373a365c05c08ff00b5eccb4bd4c86c815bd0a2c
   languageName: node
   linkType: hard
 
@@ -13694,7 +13693,7 @@ __metadata:
     "@babel/core": ^7.22.1
     "@babel/eslint-parser": ^7.21.8
     "@ember/optional-features": ^2.0.0
-    "@ember/test-helpers": ^2.9.3
+    "@ember/test-helpers": ^3.0.0
     "@glimmer/component": ^1.1.2
     "@glimmer/tracking": ^1.1.2
     "@tsconfig/ember": latest
