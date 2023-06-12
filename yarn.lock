@@ -86,7 +86,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.21.0, @babel/core@npm:^7.21.4":
+"@babel/core@npm:^7.21.0":
   version: 7.21.4
   resolution: "@babel/core@npm:7.21.4"
   dependencies:
@@ -109,7 +109,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.22.5":
+"@babel/core@npm:^7.22.1, @babel/core@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/core@npm:7.22.5"
   dependencies:
@@ -1770,6 +1770,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.22.3":
+  version: 7.22.5
+  resolution: "@babel/runtime@npm:7.22.5"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 12a50b7de2531beef38840d17af50c55a094253697600cee255311222390c68eed704829308d4fd305e1b3dfbce113272e428e9d9d45b1730e0fede997eaceb1
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.18.10":
   version: 7.18.10
   resolution: "@babel/template@npm:7.18.10"
@@ -2000,105 +2009,106 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember-data/adapter@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/adapter@npm:4.12.0"
+"@ember-data/adapter@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/adapter@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
-    "@embroider/macros": ^1.10.0
+    "@ember-data/private-build-infra": 5.0.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
     ember-cli-test-info: ^1.0.0
   peerDependencies:
-    "@ember-data/store": 4.12.0
-    "@ember/string": ^3.0.1
+    "@ember-data/store": 5.0.0
+    "@ember/string": ^3.1.1
     ember-inflector: ^4.0.2
-  checksum: 9eed4f612d074a5169e71560f6d42bf19d3e7ca4a3b521ac69d6ed107f781000e2d0b076860e0ad49d54ef345e74eb97420488c909a6e40ddcabbe9c53e2afdc
+  checksum: 22d7027fc5d53d71626c6b51ac14d60d5698136075b58e1a6bbdc7b09e42f528ec9a3231367e789f1a5fce024dfc14ce7568982e4bf5d7526a9127a7f3aa286d
   languageName: node
   linkType: hard
 
-"@ember-data/debug@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/debug@npm:4.12.0"
+"@ember-data/debug@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/debug@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
+    "@ember-data/private-build-infra": 5.0.0
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
-    ember-auto-import: ^2.6.1
+    "@embroider/macros": ^1.11.0
+    ember-auto-import: 2.6.1
     ember-cli-babel: ^7.26.11
+    webpack: ^5.82.1
   peerDependencies:
-    "@ember/string": ^3.0.1
-  checksum: 34451789405a0403a2615440ae2ad98368e3d24a64f28f9ce5a9eff714b021a419449ebaa034211a481332fbd97beb7025eec318fec2000ae4803d40d20997eb
+    "@ember/string": ^3.1.1
+  checksum: 32f0a9098f0d32f4e01471eabb8ae0b70ffa45f5cff0cb86c71680d25f5521f002bb7e3991f9958aaffc467b87743b3ab8d9587f28b00d3c175facea55a2cef6
   languageName: node
   linkType: hard
 
-"@ember-data/graph@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/graph@npm:4.12.0"
+"@ember-data/graph@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/graph@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
+    "@ember-data/private-build-infra": 5.0.0
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/store": 4.12.0
-  checksum: 181b36c0ef25879e87be8406ec477b5b97c43fcd316e8a59465b0ab20daec6d0543741cc7308dacb654baa3b5d5c9ab4b814c29d79e2ece3cccf7034e10ccddc
+    "@ember-data/store": 5.0.0
+  checksum: 3695ce5ca9df262f97c8042d9a4e6e395514cb2394ee4c8fb7e0780700964cdd47d69c4a76e9db6522891f4815b516082a93211e5eb5e2e552fe2c2932e5f1e9
   languageName: node
   linkType: hard
 
-"@ember-data/json-api@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/json-api@npm:4.12.0"
+"@ember-data/json-api@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/json-api@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
+    "@ember-data/private-build-infra": 5.0.0
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/graph": 4.12.0
-    "@ember-data/store": 4.12.0
-  checksum: cf05d95ddfe9e384375e163d3e62adf912d37babc9b88360a05a77fdfdbe133a3e9a3b89a51f514f7cc98ae5b07318429e5fa884156132fcd61e525e0b4297b4
+    "@ember-data/graph": 5.0.0
+    "@ember-data/store": 5.0.0
+  checksum: 5c682a73a27cced0e35d4e18463336ad044e89c0c5f4717e0885a32e6bdc09f5e5e74e9f0be6b8437adf725f08cdd2bed155f40065136b976ae16c7f6a9c4ae7
   languageName: node
   linkType: hard
 
-"@ember-data/legacy-compat@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/legacy-compat@npm:4.12.0"
+"@ember-data/legacy-compat@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/legacy-compat@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
-    "@embroider/macros": ^1.10.0
+    "@ember-data/private-build-infra": 5.0.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/graph": 4.12.0
-    "@ember-data/json-api": 4.12.0
+    "@ember-data/graph": 5.0.0
+    "@ember-data/json-api": 5.0.0
   peerDependenciesMeta:
     "@ember-data/graph":
       optional: true
     "@ember-data/json-api":
       optional: true
-  checksum: 6781247332a6df429b5e7623f4dda3787a3c240e1b3dbad9a0e3c833870198e54d396a59bd4c272417ce06e095ccb8077887ce19a03d6dc3668a39c836fcb3bd
+  checksum: 90221111ac1e9fe6bb3dfb624795d560385ae0713caa337ccb6378e9fc1bbdb06a65f9f4841c8c5142478f3706f42dcf1702cadd6a17f4896a049bf163184dda
   languageName: node
   linkType: hard
 
-"@ember-data/model@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/model@npm:4.12.0"
+"@ember-data/model@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/model@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
+    "@ember-data/private-build-infra": 5.0.0
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     ember-cached-decorator-polyfill: ^1.0.1
     ember-cli-babel: ^7.26.11
     ember-cli-string-utils: ^1.1.0
     ember-cli-test-info: ^1.0.0
     inflection: ~2.0.1
   peerDependencies:
-    "@ember-data/debug": 4.12.0
-    "@ember-data/graph": 4.12.0
-    "@ember-data/json-api": 4.12.0
-    "@ember-data/legacy-compat": 4.12.0
-    "@ember-data/store": 4.12.0
-    "@ember-data/tracking": 4.12.0
-    "@ember/string": ^3.0.1
+    "@ember-data/debug": 5.0.0
+    "@ember-data/graph": 5.0.0
+    "@ember-data/json-api": 5.0.0
+    "@ember-data/legacy-compat": 5.0.0
+    "@ember-data/store": 5.0.0
+    "@ember-data/tracking": 5.0.0
+    "@ember/string": ^3.1.1
     ember-inflector: ^4.0.2
   peerDependenciesMeta:
     "@ember-data/debug":
@@ -2107,19 +2117,19 @@ __metadata:
       optional: true
     "@ember-data/json-api":
       optional: true
-  checksum: 3d08dc5f80185475dfe4f0595dff97a25c999287fdd5f26c6b17e0cb276f0e7a4bf5b2d14a45e35f34de788ba657caab29db8102113ee8dec891a54ca8ec1d40
+  checksum: bb5cf6ca69e03db01c00a2be8845860f8cec3b447810c8a377d42fbab6dd3fe3daff3d2c40477146ec85a42e24dc7a61fd0cd7fc8cdb4c5a87a4e75a706aaade
   languageName: node
   linkType: hard
 
-"@ember-data/private-build-infra@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/private-build-infra@npm:4.12.0"
+"@ember-data/private-build-infra@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/private-build-infra@npm:5.0.0"
   dependencies:
-    "@babel/core": ^7.21.4
+    "@babel/core": ^7.22.1
     "@babel/plugin-transform-block-scoping": ^7.21.0
-    "@babel/runtime": ^7.21.0
+    "@babel/runtime": ^7.22.3
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     babel-import-util: ^1.3.0
     babel-plugin-debug-macros: ^0.3.4
     babel-plugin-filter-imports: ^4.0.0
@@ -2136,23 +2146,22 @@ __metadata:
     ember-cli-string-utils: ^1.1.0
     ember-cli-version-checker: ^5.1.2
     git-repo-info: ^2.1.1
-    glob: ^9.3.4
     npm-git-info: ^1.0.3
-    semver: ^7.3.8
+    semver: ^7.5.1
     silent-error: ^1.1.1
-  checksum: 89b677b08d18b23e0694844a070da22fa5f4b4a6f2b4e554758b4c8615b879223954cebd48294ac17aa081a13b13e58ad156b584c521d83470573bb23ebd4542
+  checksum: 340e8a3695afc069f1ee2ca97b0839cb0134b7301f5853a974b31c3a442aaf2ae161e369eb4d1e22fef13e06ad9c13c726adbf535868aeb052c634c8b1ea5c46
   languageName: node
   linkType: hard
 
-"@ember-data/request@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/request@npm:4.12.0"
+"@ember-data/request@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/request@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
+    "@ember-data/private-build-infra": 5.0.0
     "@ember/test-waiters": ^3.0.2
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
-  checksum: 574fad1038f2faa38beb24e0d62fc3c8ce72abe0b3e5826c97dedcfb0b901d3738908b54023e76108ab90dc29741ce4b397aac57f47e8b38a3420ca3dd12b2a5
+  checksum: 316da36a79fe7caadbd4831d33c1bdd57e13897144d9c7ffa63b7a7abebd40111fb1a8c8f6205a64dcd9e3e123505db9c6d3ae4a910e32d5388d3dd277bdf3b4
   languageName: node
   linkType: hard
 
@@ -2163,37 +2172,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ember-data/serializer@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/serializer@npm:4.12.0"
+"@ember-data/serializer@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/serializer@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
-    "@embroider/macros": ^1.10.0
+    "@ember-data/private-build-infra": 5.0.0
+    "@embroider/macros": ^1.11.0
     ember-cli-babel: ^7.26.11
     ember-cli-test-info: ^1.0.0
   peerDependencies:
-    "@ember-data/store": 4.12.0
-    "@ember/string": ^3.0.1
+    "@ember-data/store": 5.0.0
+    "@ember/string": ^3.1.1
     ember-inflector: ^4.0.2
-  checksum: 7f1cc8e8343771316e1992bacd4b00cc5a0d8594929bc8d4833569edf6f051797b09dc8858d4dc57baa95b6a7f7bd7f7ef6ad054a47d8c8890f5f80292e2e3e1
+  checksum: 957c6ea2153299c01f1f05736f7aaa265ddb38ebe9096d8b8c0969f5459641399a2f43d5aad349ac22e1ff6a5f27784cf5e1e5adc9f05e0d61d84af1fbb891f0
   languageName: node
   linkType: hard
 
-"@ember-data/store@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/store@npm:4.12.0"
+"@ember-data/store@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/store@npm:5.0.0"
   dependencies:
-    "@ember-data/private-build-infra": 4.12.0
-    "@embroider/macros": ^1.10.0
+    "@ember-data/private-build-infra": 5.0.0
+    "@embroider/macros": ^1.11.0
     ember-cached-decorator-polyfill: ^1.0.1
     ember-cli-babel: ^7.26.11
   peerDependencies:
-    "@ember-data/graph": 4.12.0
-    "@ember-data/json-api": 4.12.0
-    "@ember-data/legacy-compat": 4.12.0
-    "@ember-data/model": 4.12.0
-    "@ember-data/tracking": 4.12.0
-    "@ember/string": ^3.0.1
+    "@ember-data/graph": 5.0.0
+    "@ember-data/json-api": 5.0.0
+    "@ember-data/legacy-compat": 5.0.0
+    "@ember-data/model": 5.0.0
+    "@ember-data/tracking": 5.0.0
+    "@ember/string": ^3.1.1
     "@glimmer/tracking": ^1.1.2
   peerDependenciesMeta:
     "@ember-data/graph":
@@ -2204,16 +2213,16 @@ __metadata:
       optional: true
     "@ember-data/model":
       optional: true
-  checksum: b1d699e4b13a99234592058ff437987454f000f24da0ebb7b849078b9cc42892d93299e45b5278652c6e333e7539ffa75a4d4fbaec4b3d07f42b1f6b140f3d1f
+  checksum: 79d7f7d46691f0c9b687f214027af60126e6b0d52db263ec869f9accb9657ebd5cff2e59217db90442fede69fe963c186850dcc03f91c760f56a3464a13108f5
   languageName: node
   linkType: hard
 
-"@ember-data/tracking@npm:4.12.0":
-  version: 4.12.0
-  resolution: "@ember-data/tracking@npm:4.12.0"
+"@ember-data/tracking@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@ember-data/tracking@npm:5.0.0"
   dependencies:
     ember-cli-babel: ^7.26.11
-  checksum: bdc15e26df5757bfb7b688fbe6a7c0b6216edeca000cd09098e3e6e02eff844864ca0aa7c6d7027ed31ec18a6ee3e07f94f8962277dc100e2dd0bb5b9ddcafe8
+  checksum: 42bdb8f0b7627dda51e0490a0daa32131d9ed1a8db766c099b201c73049522ded3a9db3658291bb89bc32f42bab40b95200c5b2ba2bf8b4f91a1e7cb0edc89de
   languageName: node
   linkType: hard
 
@@ -2329,6 +2338,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@embroider/macros@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@embroider/macros@npm:1.11.0"
+  dependencies:
+    "@embroider/shared-internals": 2.1.0
+    assert-never: ^1.2.1
+    babel-import-util: ^1.1.0
+    ember-cli-babel: ^7.26.6
+    find-up: ^5.0.0
+    lodash: ^4.17.21
+    resolve: ^1.20.0
+    semver: ^7.3.2
+  peerDependencies:
+    "@glint/template": ^1.0.0
+  peerDependenciesMeta:
+    "@glint/template":
+      optional: true
+  checksum: 7f49f416fcdded4ab9fc6cef7715fb0f8f7f1337c94cda90cefcfa63d7b0d7e7f44a8e6bfe7e53ceb34d7556737282a12c3642ae7acc11fceed4ab2db9d80c00
+  languageName: node
+  linkType: hard
+
 "@embroider/shared-internals@npm:1.8.3, @embroider/shared-internals@npm:^1.0.0":
   version: 1.8.3
   resolution: "@embroider/shared-internals@npm:1.8.3"
@@ -2361,7 +2391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@embroider/shared-internals@npm:^2.1.0":
+"@embroider/shared-internals@npm:2.1.0, @embroider/shared-internals@npm:^2.1.0":
   version: 2.1.0
   resolution: "@embroider/shared-internals@npm:2.1.0"
   dependencies:
@@ -6262,6 +6292,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ember-auto-import@npm:2.6.1, ember-auto-import@npm:^2.6.0":
+  version: 2.6.1
+  resolution: "ember-auto-import@npm:2.6.1"
+  dependencies:
+    "@babel/core": ^7.16.7
+    "@babel/plugin-proposal-class-properties": ^7.16.7
+    "@babel/plugin-proposal-decorators": ^7.16.7
+    "@babel/preset-env": ^7.16.7
+    "@embroider/macros": ^1.0.0
+    "@embroider/shared-internals": ^2.0.0
+    babel-loader: ^8.0.6
+    babel-plugin-ember-modules-api-polyfill: ^3.5.0
+    babel-plugin-htmlbars-inline-precompile: ^5.2.1
+    babel-plugin-syntax-dynamic-import: ^6.18.0
+    broccoli-debug: ^0.6.4
+    broccoli-funnel: ^3.0.8
+    broccoli-merge-trees: ^4.2.0
+    broccoli-plugin: ^4.0.0
+    broccoli-source: ^3.0.0
+    css-loader: ^5.2.0
+    debug: ^4.3.1
+    fs-extra: ^10.0.0
+    fs-tree-diff: ^2.0.0
+    handlebars: ^4.3.1
+    js-string-escape: ^1.0.1
+    lodash: ^4.17.19
+    mini-css-extract-plugin: ^2.5.2
+    parse5: ^6.0.1
+    resolve: ^1.20.0
+    resolve-package-path: ^4.0.3
+    semver: ^7.3.4
+    style-loader: ^2.0.0
+    typescript-memoize: ^1.0.0-alpha.3
+    walk-sync: ^3.0.0
+  checksum: 46c55add57a58aecd772c8a7f038afd458e362011301c99766d9a11e83121d96b5170fe48af8e12460b64aaebf4242f0a6f8d21ff152925b62f8e595f034c1b1
+  languageName: node
+  linkType: hard
+
 "ember-auto-import@npm:^2.4.3":
   version: 2.4.3
   resolution: "ember-auto-import@npm:2.4.3"
@@ -6338,45 +6406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-auto-import@npm:^2.6.0":
-  version: 2.6.1
-  resolution: "ember-auto-import@npm:2.6.1"
-  dependencies:
-    "@babel/core": ^7.16.7
-    "@babel/plugin-proposal-class-properties": ^7.16.7
-    "@babel/plugin-proposal-decorators": ^7.16.7
-    "@babel/preset-env": ^7.16.7
-    "@embroider/macros": ^1.0.0
-    "@embroider/shared-internals": ^2.0.0
-    babel-loader: ^8.0.6
-    babel-plugin-ember-modules-api-polyfill: ^3.5.0
-    babel-plugin-htmlbars-inline-precompile: ^5.2.1
-    babel-plugin-syntax-dynamic-import: ^6.18.0
-    broccoli-debug: ^0.6.4
-    broccoli-funnel: ^3.0.8
-    broccoli-merge-trees: ^4.2.0
-    broccoli-plugin: ^4.0.0
-    broccoli-source: ^3.0.0
-    css-loader: ^5.2.0
-    debug: ^4.3.1
-    fs-extra: ^10.0.0
-    fs-tree-diff: ^2.0.0
-    handlebars: ^4.3.1
-    js-string-escape: ^1.0.1
-    lodash: ^4.17.19
-    mini-css-extract-plugin: ^2.5.2
-    parse5: ^6.0.1
-    resolve: ^1.20.0
-    resolve-package-path: ^4.0.3
-    semver: ^7.3.4
-    style-loader: ^2.0.0
-    typescript-memoize: ^1.0.0-alpha.3
-    walk-sync: ^3.0.0
-  checksum: 46c55add57a58aecd772c8a7f038afd458e362011301c99766d9a11e83121d96b5170fe48af8e12460b64aaebf4242f0a6f8d21ff152925b62f8e595f034c1b1
-  languageName: node
-  linkType: hard
-
-"ember-auto-import@npm:^2.6.1, ember-auto-import@npm:^2.6.3":
+"ember-auto-import@npm:^2.6.3":
   version: 2.6.3
   resolution: "ember-auto-import@npm:2.6.3"
   dependencies:
@@ -6937,31 +6967,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-data@npm:~4.12.0":
-  version: 4.12.0
-  resolution: "ember-data@npm:4.12.0"
+"ember-data@npm:~5.0.0":
+  version: 5.0.0
+  resolution: "ember-data@npm:5.0.0"
   dependencies:
-    "@ember-data/adapter": 4.12.0
-    "@ember-data/debug": 4.12.0
-    "@ember-data/graph": 4.12.0
-    "@ember-data/json-api": 4.12.0
-    "@ember-data/legacy-compat": 4.12.0
-    "@ember-data/model": 4.12.0
-    "@ember-data/private-build-infra": 4.12.0
-    "@ember-data/request": 4.12.0
-    "@ember-data/serializer": 4.12.0
-    "@ember-data/store": 4.12.0
-    "@ember-data/tracking": 4.12.0
+    "@ember-data/adapter": 5.0.0
+    "@ember-data/debug": 5.0.0
+    "@ember-data/graph": 5.0.0
+    "@ember-data/json-api": 5.0.0
+    "@ember-data/legacy-compat": 5.0.0
+    "@ember-data/model": 5.0.0
+    "@ember-data/private-build-infra": 5.0.0
+    "@ember-data/request": 5.0.0
+    "@ember-data/serializer": 5.0.0
+    "@ember-data/store": 5.0.0
+    "@ember-data/tracking": 5.0.0
     "@ember/edition-utils": ^1.2.0
-    "@embroider/macros": ^1.10.0
+    "@embroider/macros": ^1.11.0
     "@glimmer/env": ^0.1.7
     broccoli-merge-trees: ^4.2.0
-    ember-auto-import: ^2.6.1
+    ember-auto-import: 2.6.1
     ember-cli-babel: ^7.26.11
     ember-inflector: ^4.0.2
+    webpack: ^5.82.1
   peerDependencies:
-    "@ember/string": ^3.0.1
-  checksum: 0c8ca8e67fd62321a586afc22b8953b83037c6e8ca3abfeb6f7ce8a33238ed71e576ec6da177f65dc985ff8e93ce677153a46fb66e088099b3a7f3965a503ac8
+    "@ember/string": ^3.1.1
+  checksum: 003739648d3a4ad545d4c068fe7d0527f885137c830fdb1dfdcab916a17a50ba5691b99008e80550170570e03792c4c8836eff73515c6d43a5ed9c0ffe7cbcb7
   languageName: node
   linkType: hard
 
@@ -8761,18 +8792,6 @@ __metadata:
     minimatch: ^5.0.1
     once: ^1.3.0
   checksum: 92fbea3221a7d12075f26f0227abac435de868dd0736a17170663783296d0dd8d3d532a5672b4488a439bf5d7fb85cdd07c11185d6cd39184f0385cbdfb86a47
-  languageName: node
-  linkType: hard
-
-"glob@npm:^9.3.4":
-  version: 9.3.5
-  resolution: "glob@npm:9.3.5"
-  dependencies:
-    fs.realpath: ^1.0.0
-    minimatch: ^8.0.2
-    minipass: ^4.2.4
-    path-scurry: ^1.6.1
-  checksum: 94b093adbc591bc36b582f77927d1fb0dbf3ccc231828512b017601408be98d1fe798fc8c0b19c6f2d1a7660339c3502ce698de475e9d938ccbb69b47b647c84
   languageName: node
   linkType: hard
 
@@ -10589,13 +10608,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "lru-cache@npm:9.0.0"
-  checksum: d90173404f4f2b48d238c361eaa5ff302507b9be65beb71282147e18a50d4b521361df99d7ded199b6c2e6451078c417d64d9d649e466f2bed8b5de2795cbbb6
-  languageName: node
-  linkType: hard
-
 "magic-string@npm:^0.24.0":
   version: 0.24.1
   resolution: "magic-string@npm:0.24.1"
@@ -10941,15 +10953,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^8.0.2":
-  version: 8.0.4
-  resolution: "minimatch@npm:8.0.4"
-  dependencies:
-    brace-expansion: ^2.0.1
-  checksum: 2e46cffb86bacbc524ad45a6426f338920c529dd13f3a732cc2cf7618988ee1aae88df4ca28983285aca9e0f45222019ac2d14ebd17c1edadd2ee12221ab801a
-  languageName: node
-  linkType: hard
-
 "minimist@npm:^0.2.1":
   version: 0.2.4
   resolution: "minimist@npm:0.2.4"
@@ -11031,20 +11034,6 @@ __metadata:
   dependencies:
     yallist: ^4.0.0
   checksum: f89f02bcaa0e0e4bb4c44ec796008e69fbca62db0aba6ead1bc57d25bdaefdf42102130f4f9ecb7d9c6b6cd35ff7b0c7b97d001d3435da8e629fb68af3aea57e
-  languageName: node
-  linkType: hard
-
-"minipass@npm:^4.2.4":
-  version: 4.2.7
-  resolution: "minipass@npm:4.2.7"
-  checksum: 55669510e5ff681889ba30b3bebe7dc70eac687197c9fe119b4d6eee36d96755b240f11b75e81edc2b6f8ce8338154a26896fb0555ae34b4fa4c607d31557ee9
-  languageName: node
-  linkType: hard
-
-"minipass@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "minipass@npm:5.0.0"
-  checksum: 425dab288738853fded43da3314a0b5c035844d6f3097a8e3b5b29b328da8f3c1af6fc70618b32c29ff906284cf6406b6841376f21caaadd0793c1d5a6a620ea
   languageName: node
   linkType: hard
 
@@ -11907,16 +11896,6 @@ __metadata:
   dependencies:
     path-root-regex: ^0.1.0
   checksum: ff88aebfc1c59ace510cc06703d67692a11530989920427625e52b66a303ca9b3d4059b0b7d0b2a73248d1ad29bcb342b8b786ec00592f3101d38a45fd3b2e08
-  languageName: node
-  linkType: hard
-
-"path-scurry@npm:^1.6.1":
-  version: 1.6.4
-  resolution: "path-scurry@npm:1.6.4"
-  dependencies:
-    lru-cache: ^9.0.0
-    minipass: ^5.0.0
-  checksum: bd5262b51dc35b0d6f0b1d4fa4445789839982bd649904f18fe43717ecc3021d2313a80768b56cd0428f5ca50d740a6c609e747cd6a053efaa802e07eb5b7b18
   languageName: node
   linkType: hard
 
@@ -13048,6 +13027,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "semver@npm:7.5.1"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
+  languageName: node
+  linkType: hard
+
 "send@npm:0.18.0":
   version: 0.18.0
   resolution: "send@npm:0.18.0"
@@ -13792,7 +13782,7 @@ __metadata:
     ember-cli-terser: ^4.0.2
     ember-cli-typescript: ^5.2.1
     ember-cli-typescript-blueprints: latest
-    ember-data: ~4.12.0
+    ember-data: ~5.0.0
     ember-fetch: ^8.1.2
     ember-load-initializers: ^2.1.2
     ember-page-title: ^7.0.0
@@ -14733,7 +14723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.86.0":
+"webpack@npm:^5.82.1, webpack@npm:^5.86.0":
   version: 5.86.0
   resolution: "webpack@npm:5.86.0"
   dependencies:
