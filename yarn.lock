@@ -2907,11 +2907,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__adapter@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember-data__adapter@npm:4.0.1"
+  version: 4.0.2
+  resolution: "@types/ember-data__adapter@npm:4.0.2"
   dependencies:
     "@types/ember-data": "*"
-  checksum: 5636fc85c2b7496d608af5494d1c6b82a3bf7f0d88f9037824bf203b0e4e167805544eebef63e019991a5a388e567851b211a041f4b3d12ddb1881748e5a65a9
+  checksum: 17f3c04616ceb12e41c8d9c5638a6dc67d44eb24e37215742e020f76da6435997bbf5245b1da6c0229a971fcdc03e413cea8dfad43bb3df2980fe24cd3ff99c8
   languageName: node
   linkType: hard
 
