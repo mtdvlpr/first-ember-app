@@ -3075,26 +3075,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__engine@npm:*":
-  version: 4.0.2
-  resolution: "@types/ember__engine@npm:4.0.2"
-  dependencies:
-    "@types/ember-resolver": "*"
-    "@types/ember__engine": "*"
-    "@types/ember__object": "*"
-    "@types/ember__owner": "*"
-  checksum: 194c17255b2de23e456f984361d1bf8c03f2701baa2902156439d51a79dcf702a9159f010b5cd9609da508804f82fd01432cd10bc96f8c7fe644ea9a7a453cdc
-  languageName: node
-  linkType: hard
-
-"@types/ember__engine@npm:latest":
-  version: 4.0.4
-  resolution: "@types/ember__engine@npm:4.0.4"
+"@types/ember__engine@npm:*, @types/ember__engine@npm:latest":
+  version: 4.0.5
+  resolution: "@types/ember__engine@npm:4.0.5"
   dependencies:
     "@types/ember__engine": "*"
     "@types/ember__object": "*"
     "@types/ember__owner": "*"
-  checksum: 1b387a89206263ba26dfc0cc6417e8a3aecbb12af3d16522eeb09c78273da12851c5fca614099070920ec17c51ff50ba31e487d73259ab5673d143956b97d35a
+  checksum: dacefd0a0485b65d4e01bddb26cb3bfe287f049c7e66476c4082049a963d4214faa73e47ee210202f87bcf268de8ac9f2ab45a9d99993b5557d724cb067f266f
   languageName: node
   linkType: hard
 
