@@ -3034,13 +3034,13 @@ __metadata:
   linkType: hard
 
 "@types/ember__component@npm:*, @types/ember__component@npm:latest":
-  version: 4.0.13
-  resolution: "@types/ember__component@npm:4.0.13"
+  version: 4.0.14
+  resolution: "@types/ember__component@npm:4.0.14"
   dependencies:
     "@types/ember": "*"
     "@types/ember__component": "*"
     "@types/ember__object": "*"
-  checksum: d5b199d38764620e45192184ef158853d6b58920f928730ba29660117d7bc08fd4f959be761035ae8ad01e8b1df597c83273a9f7a75c36c6451f68f97bf7c091
+  checksum: cf19348d414a17d0e8694e3f5136c2bf6eec6111ad46326b50ad6916717fc11f9305f27ea427170d5dc46144106855e4f04404d310e405abc459863c303fd9ac
   languageName: node
   linkType: hard
 
