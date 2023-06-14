@@ -2971,8 +2971,8 @@ __metadata:
   linkType: hard
 
 "@types/ember@npm:*, @types/ember@npm:latest":
-  version: 4.0.3
-  resolution: "@types/ember@npm:4.0.3"
+  version: 4.0.4
+  resolution: "@types/ember@npm:4.0.4"
   dependencies:
     "@types/ember__application": "*"
     "@types/ember__array": "*"
@@ -2992,7 +2992,7 @@ __metadata:
     "@types/ember__utils": "*"
     "@types/htmlbars-inline-precompile": "*"
     "@types/rsvp": "*"
-  checksum: 4055d6066615243c59bad79224d8e1ba4a805d2fe2e7f0dc7674751520226e1af35c3d43cf0987675164b1f604c7dce866680412a7610d614b5beebfc1d56eed
+  checksum: c11d5e040ee94b30ed6e65bbe96dc47dd0fb9ee48b52b7e7a6ac93c6c22716b1b4c348e4d59eae15d0ef520df96fb0dae314dd294c384edeea097b5217de7da2
   languageName: node
   linkType: hard
 
