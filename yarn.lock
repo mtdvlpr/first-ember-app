@@ -3134,17 +3134,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__polyfills@npm:*":
-  version: 4.0.0
-  resolution: "@types/ember__polyfills@npm:4.0.0"
-  checksum: 93c4def2caf35e52188b3b718df4b9ca04189c700d66f72eaacfae5a761b67abe17cba7af4707194f9a22db40cbcfea8a536712d4ffa956ac785cd4651ce828e
-  languageName: node
-  linkType: hard
-
-"@types/ember__polyfills@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember__polyfills@npm:4.0.1"
-  checksum: a2b6ed3b0637fdeb6d4c93a3a1d5b7902e57124c860bf9bf82f1ea4148264991b8f0311ea6a8a50f5b243804f93650fc2a5f97a53192e0687213b41a5499e4be
+"@types/ember__polyfills@npm:*, @types/ember__polyfills@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember__polyfills@npm:4.0.2"
+  checksum: 5352eca3ed94f0299705207e8892bf6e1a2d55e010cadd1bbef2155258138d02f35df78f7365e711047e7d3e17b577002dfb7af5417668d58e91a5367f48cd05
   languageName: node
   linkType: hard
 
