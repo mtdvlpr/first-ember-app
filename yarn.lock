@@ -3174,23 +3174,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__runloop@npm:*":
-  version: 4.0.1
-  resolution: "@types/ember__runloop@npm:4.0.1"
+"@types/ember__runloop@npm:*, @types/ember__runloop@npm:latest":
+  version: 4.0.3
+  resolution: "@types/ember__runloop@npm:4.0.3"
   dependencies:
     "@types/ember": "*"
     "@types/ember__runloop": "*"
-  checksum: 97137e7937077f637be06418d572c82d1e6015ac427571a234c5ae9f5799de565b266558246dbde7bf92b828862cecb4950933fc7565241afb19637c69ed2c27
-  languageName: node
-  linkType: hard
-
-"@types/ember__runloop@npm:latest":
-  version: 4.0.2
-  resolution: "@types/ember__runloop@npm:4.0.2"
-  dependencies:
-    "@types/ember": "*"
-    "@types/ember__runloop": "*"
-  checksum: c207b35187d082be1330836dd120886ca86e14b029c7d89451fe4340ca4c500264f03a42558de62aa08e3e5743f7ac8aef84b668316d8f5db031eed109267aae
+  checksum: 9a9065dffc0924ae8f6581124f99ac0e32a4ec83c24f9d937e5b2681228e1f3e7ee31fc28e882561753814418b566c63726f91c845b8ba88338620c1f4f771e8
   languageName: node
   linkType: hard
 
