@@ -3148,29 +3148,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__routing@npm:*":
-  version: 4.0.11
-  resolution: "@types/ember__routing@npm:4.0.11"
+"@types/ember__routing@npm:*, @types/ember__routing@npm:latest":
+  version: 4.0.13
+  resolution: "@types/ember__routing@npm:4.0.13"
   dependencies:
     "@types/ember": "*"
     "@types/ember__controller": "*"
     "@types/ember__object": "*"
     "@types/ember__routing": "*"
     "@types/ember__service": "*"
-  checksum: 9c6229fe9c0f959bc0de22bc811850a5846c45e569e72f78f027afff5e2bc664d2901d81c67e6bfa22fba36a5a169011437139c6e7f37ee2b638877f5246b1b8
-  languageName: node
-  linkType: hard
-
-"@types/ember__routing@npm:latest":
-  version: 4.0.12
-  resolution: "@types/ember__routing@npm:4.0.12"
-  dependencies:
-    "@types/ember": "*"
-    "@types/ember__controller": "*"
-    "@types/ember__object": "*"
-    "@types/ember__routing": "*"
-    "@types/ember__service": "*"
-  checksum: 8c14b6de35c9b370175dc342610729dba51b315a09f538ca5ad4e95d15ae0938efec8a6fd5675b862f2ca95da46528160896a417040654c621c8dbca34d8185b
+  checksum: 2a8d921ecd466d57d910b4a7657bee28ed6b20919a9a26c89a531da5823596d96e6d328a999aa39625d4d3b0b01037346b962cf45a54664b09a01c8b0d0034f5
   languageName: node
   linkType: hard
 
