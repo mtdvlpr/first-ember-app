@@ -3188,9 +3188,9 @@ __metadata:
   linkType: hard
 
 "@types/ember__string@npm:latest":
-  version: 3.0.10
-  resolution: "@types/ember__string@npm:3.0.10"
-  checksum: 1ff40f641efbd91fc65da9d1cd8206b5ff3a7627fbbe5d00e00ba4ff116eee1863cff5d556e616d4896f5dd6fd4ae3d7f7191f8c726bdac44a568bd4fec4164f
+  version: 3.0.11
+  resolution: "@types/ember__string@npm:3.0.11"
+  checksum: f36ceae1ebc566a82f546c97efee27760503ad9992e405ace4c0ede5b0db1a467190cef0b4ffb0aea9eb07aff620e10cc594e65b37190f38956c9723104fc7a6
   languageName: node
   linkType: hard
 
