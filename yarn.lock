@@ -3195,11 +3195,11 @@ __metadata:
   linkType: hard
 
 "@types/ember__service@npm:*, @types/ember__service@npm:latest":
-  version: 4.0.2
-  resolution: "@types/ember__service@npm:4.0.2"
+  version: 4.0.3
+  resolution: "@types/ember__service@npm:4.0.3"
   dependencies:
     "@types/ember__object": "*"
-  checksum: ef6647528b44b5ef16f60dfa4fbd1d763af4decf72c407599b883a373de30a890fe4aacf45b0af3f89f7a76e9981d111935037c669c14a66157cc169dd719035
+  checksum: 904f7b867340b6e0df28e9e7690f019620d03d267d7acbde82726f3f3b0f5fac3a2e384bd713050dae6ead1d9cce272377a6ba59e9655004b2ae84ad742d7856
   languageName: node
   linkType: hard
 
