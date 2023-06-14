@@ -2934,11 +2934,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__store@npm:latest":
-  version: 4.0.2
-  resolution: "@types/ember-data__store@npm:4.0.2"
+  version: 4.0.3
+  resolution: "@types/ember-data__store@npm:4.0.3"
   dependencies:
     "@types/ember-data": "*"
-  checksum: 7b1ac271ab4fc327d495fd2abe32f780660c4daa5b2e3f720d61776dd235b7f9b8ea46d1b9b523f14975e0e2c7d3aa13990cd116a13440c8f43fa9e389393337
+  checksum: 89ce2be21faa3a1999fee0d6b7bbb260886bf05d6dce74f340dd83ba06793c3e163e003a453830adaf82ab631287ba92c1356aa69bac1a069028c54af1907a2e
   languageName: node
   linkType: hard
 
