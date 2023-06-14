@@ -2925,11 +2925,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__serializer@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember-data__serializer@npm:4.0.1"
+  version: 4.0.2
+  resolution: "@types/ember-data__serializer@npm:4.0.2"
   dependencies:
     "@types/ember-data": "*"
-  checksum: e2e14b8c99a3d33bff69aee1bdaf1b90fc5e87482fc49a22f4ff0aa9892494a0f8c72231ac600e8686d77598579c524587319f76520ce59b8a9ac3895a1de1e3
+  checksum: 955dace700ea89fb18f5dc8c9d2406a41c8f779f27873d2788f8a35173b097b18da2539445a25697f4910dbe7790ac8a9ab2eb4690ef51e7b0bae850a7ff99ba
   languageName: node
   linkType: hard
 
