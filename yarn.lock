@@ -2916,11 +2916,11 @@ __metadata:
   linkType: hard
 
 "@types/ember-data__model@npm:latest":
-  version: 4.0.0
-  resolution: "@types/ember-data__model@npm:4.0.0"
+  version: 4.0.1
+  resolution: "@types/ember-data__model@npm:4.0.1"
   dependencies:
     "@types/ember-data": "*"
-  checksum: 6a46583608af66018c9ce88d2d3cbe21f5526f479f9a442d3d3a0ab69f282437b8478fbcca4bafa9236c9e5cbc4ffe7ddadd2e1a6a81d6b58ebe553011970485
+  checksum: 62b927fbf569b43ddeed1140baf2fb0027b9cb6fd93fa5227c0dbdab763b0949c3fa53f48e90ddedf1afe7da3b68ea2b9d76244837ec63a77c5985abf1c57e70
   languageName: node
   linkType: hard
 
