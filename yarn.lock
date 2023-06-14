@@ -3045,11 +3045,11 @@ __metadata:
   linkType: hard
 
 "@types/ember__controller@npm:*, @types/ember__controller@npm:latest":
-  version: 4.0.4
-  resolution: "@types/ember__controller@npm:4.0.4"
+  version: 4.0.5
+  resolution: "@types/ember__controller@npm:4.0.5"
   dependencies:
     "@types/ember__object": "*"
-  checksum: db9a165bea96e0da67f51ca2c068b96594fce73034b937c9acffbb49dc64961c6ff79f567fd256a0f05cafc3785927f4786b0983d2ad91f36be06e78151900a5
+  checksum: dd2ba604be6c1cd2de22e5090ab29de652bbf4ab2bf33277dffec99c7c70ed1b8160aec1fc7f2147224b09a00218735b56f4059f7287473b2539d591780b58f0
   languageName: node
   linkType: hard
 
