@@ -2997,8 +2997,8 @@ __metadata:
   linkType: hard
 
 "@types/ember__application@npm:*, @types/ember__application@npm:latest":
-  version: 4.0.5
-  resolution: "@types/ember__application@npm:4.0.5"
+  version: 4.0.6
+  resolution: "@types/ember__application@npm:4.0.6"
   dependencies:
     "@glimmer/component": ^1.1.0
     "@types/ember": "*"
@@ -3007,7 +3007,7 @@ __metadata:
     "@types/ember__object": "*"
     "@types/ember__owner": "*"
     "@types/ember__routing": "*"
-  checksum: e3bc8b620d296a19ec790e7995d79a9a007eeeeccccb5f9f9d4fd2e2cfc67f276fcd7f64c3752b0248a98d59ed67c4ec7f75dcb832ddace832b2ea95d11215f6
+  checksum: be21aa51b19c6a688ca960f1bf97599bcc60778fc440b1a3062f2cce3e6063d04b344a5642291fdc2f43105de2e96225c0a964a9f72a32552461a08abc5b8339
   languageName: node
   linkType: hard
 
