@@ -3053,25 +3053,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__debug@npm:*":
-  version: 4.0.1
-  resolution: "@types/ember__debug@npm:4.0.1"
-  dependencies:
-    "@types/ember-resolver": "*"
-    "@types/ember__debug": "*"
-    "@types/ember__object": "*"
-  checksum: 0c46d4c5887e36664fae52412e16577283acfbde9a5ab45c16e2f1d7dda59ccc6295436951ab3fb9aa98f408223f7069b0b12fe9326bbff55fe91b3f1286b0aa
-  languageName: node
-  linkType: hard
-
-"@types/ember__debug@npm:latest":
-  version: 4.0.3
-  resolution: "@types/ember__debug@npm:4.0.3"
+"@types/ember__debug@npm:*, @types/ember__debug@npm:latest":
+  version: 4.0.4
+  resolution: "@types/ember__debug@npm:4.0.4"
   dependencies:
     "@types/ember__debug": "*"
     "@types/ember__object": "*"
     "@types/ember__owner": "*"
-  checksum: 69a31777a6ba3dba0c8733b59e06e3f5eae0350cf9665421fd7adf23b8d9e43abfdc423d615b9ac91a4208c804e59c5d5f2b3000a7ed957bb9114a381536009c
+  checksum: f0b67b4067bfecd09d4cf338ff2baa938fa903f925d07a4e0654b8b53f644942b42c95688f2b9a35c3b9464a873400f3500fdacc33151fd5deff68448bc3f3d6
   languageName: node
   linkType: hard
 
