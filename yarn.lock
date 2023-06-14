@@ -3217,21 +3217,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ember__test@npm:*":
-  version: 4.0.0
-  resolution: "@types/ember__test@npm:4.0.0"
+"@types/ember__test@npm:*, @types/ember__test@npm:latest":
+  version: 4.0.2
+  resolution: "@types/ember__test@npm:4.0.2"
   dependencies:
     "@types/ember__application": "*"
-  checksum: e342612e7acac2894e884d4071617cef70302c36b48507156057660544e2d35d1eb1e9301aecad793e60a7eb468741493cc95c934ed8f0e36b9eed85e6a0b00f
-  languageName: node
-  linkType: hard
-
-"@types/ember__test@npm:latest":
-  version: 4.0.1
-  resolution: "@types/ember__test@npm:4.0.1"
-  dependencies:
-    "@types/ember__application": "*"
-  checksum: e303ed97b0d63e9b2c91c8b7bd2445b8c013e485f458f0122c8a961593dafdc9428ffc055f51527032c970c2591094600f00233cda894e1775bc671bde67c570
+  checksum: 303bf2c63df3e62f6ef300956bca7c9fa0e6fc54c9d441e6603ded99552209b3d864d5fa4b0881e236f113c8b06774c7f346a061021fd2bca118ea6527149330
   languageName: node
   linkType: hard
 
