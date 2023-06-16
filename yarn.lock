@@ -7003,18 +7003,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-resolver@npm:^10.1.0":
-  version: 10.1.0
-  resolution: "ember-resolver@npm:10.1.0"
+"ember-resolver@npm:^10.1.1":
+  version: 10.1.1
+  resolution: "ember-resolver@npm:10.1.1"
   dependencies:
     ember-cli-babel: ^7.26.11
   peerDependencies:
     "@ember/string": ^3.0.1
-    ember-source: ^4.8.3
+    ember-source: ^4.8.3 || >= 5.0.0
   peerDependenciesMeta:
     ember-source:
       optional: true
-  checksum: cfaf88c532e99517d3d8f47d1e259027d0812e798990bc55ffaa6caaa23185679826eee0832f74753bc4b919be13acc9e675226e1bf777ff0b43a67319e54a36
+  checksum: 3ffbc0789f651d834455aeef4a248840dfea0ca6ab9192bbab66e4bff2f5f5e33c51c24e35d41bfeb08d980e1e7b287eecef9e73c39baee57468e5edc798fa29
   languageName: node
   linkType: hard
 
@@ -13698,7 +13698,7 @@ __metadata:
     ember-load-initializers: ^2.1.2
     ember-page-title: ^7.0.0
     ember-qunit: ^6.2.0
-    ember-resolver: ^10.1.0
+    ember-resolver: ^10.1.1
     ember-source: ~4.12.0
     ember-template-lint: ^5.10.1
     ember-welcome-page: ^7.0.2
