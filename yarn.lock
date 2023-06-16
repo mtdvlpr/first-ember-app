@@ -5355,7 +5355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.1.0, chalk@npm:^2.3.0, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
+"chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.1.0, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -6420,18 +6420,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ember-cli-dependency-checker@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "ember-cli-dependency-checker@npm:3.3.1"
+"ember-cli-dependency-checker@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "ember-cli-dependency-checker@npm:3.3.2"
   dependencies:
-    chalk: ^2.3.0
-    find-yarn-workspace-root: ^1.1.0
+    chalk: ^2.4.2
+    find-yarn-workspace-root: ^1.2.1
     is-git-url: ^1.0.0
-    resolve: ^1.5.0
-    semver: ^5.3.0
+    resolve: ^1.22.0
+    semver: ^5.7.1
   peerDependencies:
-    ember-cli: ^3.2.0 || ^4.0.0
-  checksum: 41d27cb4ccd056b9013ef00fa0f4e9133a5769b82bef8427ceaca3d9b773f901a4fbea6ad87748a6ae456d0051ed12f4e664212ca3c290d14704c3a2d710ad72
+    ember-cli: ^3.2.0 || >=4.0.0
+  checksum: e408f6a1cb6ed4126d966b785e9023799cab5d0d857ff7ec2edc1175a5456f8ac878b5da8b0a197c3db02a38fed643090df8c260018263a993ef50ddb0a48d63
   languageName: node
   linkType: hard
 
@@ -8148,7 +8148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-yarn-workspace-root@npm:^1.1.0":
+"find-yarn-workspace-root@npm:^1.2.1":
   version: 1.2.1
   resolution: "find-yarn-workspace-root@npm:1.2.1"
   dependencies:
@@ -12909,7 +12909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.1":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -13685,7 +13685,7 @@ __metadata:
     ember-cli: ~4.12.1
     ember-cli-app-version: ^6.0.0
     ember-cli-babel: ^7.26.11
-    ember-cli-dependency-checker: ^3.3.1
+    ember-cli-dependency-checker: ^3.3.2
     ember-cli-dotenv: ^3.1.0
     ember-cli-htmlbars: ^6.2.0
     ember-cli-inject-live-reload: ^2.1.0
